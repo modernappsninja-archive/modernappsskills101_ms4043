@@ -245,7 +245,7 @@ jobs:
         run: |
           cd ${{ github.event.repository.name }}
           hub issue update ${{ github.event.issue.number }} --message "@${{ github.event.issue.user.login }} the updated answer key for ${{ env.testname }} has been processed" \
-          --message "The answer response sheet for ${{ env.testname }} has been posted to [https://github.com/${{ env.org_repo }}/static/admin/userdata/tests/${{ env.testname }}.yml](https://github.com/${{ env.org_repo }}/static/admin/userdata/tests/${{ env.testname }}.yml). Please update your test page to ensure it provides the correct link to students for test submission. ${{ env.testname}} is now usable and this issue ticket will now be closed."
+          --message "The answer response sheet for ${{ env.testname }} has been posted to [https://github.com/${{ env.org_repo }}/blob/main/static/admin/userdata/tests/${{ env.testname }}.yml](https://github.com/${{ env.org_repo }}/blob/main/static/admin/userdata/tests/${{ env.testname }}.yml). Please update your test page to ensure it provides the correct link to students for test submission. ${{ env.testname}} is now usable and this issue ticket will now be closed."
           hub issue update ${{ github.event.issue.number }} -s closed
       - name: transfer issue ticket to admin-private
         run: |

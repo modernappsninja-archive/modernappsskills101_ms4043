@@ -311,6 +311,51 @@ jobs:
           -d '{"message": "Posting ${{ github.event.repository.name }}_grading_stub file", "content": "${{ env.grading_stub_string }}"'$(if [ '${{ needs.job_verify_test_completion.outputs.repeat_request }}' == 'true' ]; then echo ",\"sha\":\"${{ needs.job_verify_test_completion.outputs.repeat_request_sha }}\"";fi)'}' \
           "https://api.github.com/repos/modernappsninjas/${{ github.event.sender.login }}/contents/static/userdata/courses/${{ github.event.repository.name }}/grading_stubs/${{ github.event.repository.name }}_grading_stub.yml" \
           -o /tmp/grading_stub_post_response.json
+      - name: pull member record file
+        if: env.passing_grade == 'true'
+        run: |
+          curl -H "Authorization: token ${{ secrets.NINJABOTGURU }}" \
+          "https://raw.githubusercontent.com/ModernAppsNinja/admin-private/main/userdata/members/${{ github.event.sender.login }}_${{ github.event.sender.id }}.yml" \
+          -o /tmp/member_record.yml
+          cat /tmp/member_record.yml
+      # COURSE DEVELOPERS: This section awards digital badges. Do not uncomment this section until you have created the digital badge for this course and have the badge ID values available
+      # - name: make assertion to award digital badge to recipient
+      #   if: env.passing_grade == 'true'
+      #   run: |
+      #     preferredemailaddress=$(yq e '.preferredEmailAddress' /tmp/member_record.yml)
+      #     badgeclass_entity_id=
+      #     reponame=${{ github.event.repository.name }}
+      #     lorepo=$(echo ${reponame,,})
+      #     echo "lorepo is: ${lorepo}"
+      #     badgrtoken=$(curl -X POST "https://api.badgr.io/o/token" -d "username=${{ secrets.BADGREMAIL }}&password=${{ secrets.BADGRPASSWORD }}" | jq -r '.access_token')
+      #     echo "badgrtoken is: ${badgrtoken}"
+      #     curl -X POST \
+      #     "https://api.badgr.io/v2/badgeclasses/${badgeclass_entity_id}/assertions" \
+      #     --header "Content-Type: application/json" \
+      #     --header "Authorization: Bearer ${badgrtoken}" \
+      #     --data-raw '{
+      #       "recipient": {
+      #         "identity": "'$(yq e '.preferredEmailAddress' /tmp/member_record.yml)'",
+      #         "type": "email",
+      #         "hashed": true
+      #       },
+      #       "evidence": [
+      #         {
+      #           "url": "https://modernappsninjas.github.io/${{ github.event.sender.login }}/cert/'${lorepo}'/"
+      #         }
+      #       ],
+      #       "notify": true
+      #     }' >> /tmp/assert_call_response.json
+      #     cat /tmp/assert_call_response.json
+      # - name: review variables from assertion response
+      #   if: env.passing_grade == 'true'
+      #   run: |
+      #     echo "status.success is : $(jq -r '.status.success' /tmp/assert_call_response.json)"
+      #     jq -r '.status.success' /tmp/assert_call_response.json > /tmp/assert_success
+      #     echo "result.entityId is : $(jq -r '.result[0].entityId' /tmp/assert_call_response.json)"
+      #     jq -r '.result[0].entityId' /tmp/assert_call_response.json > /tmp/badge_entityId
+      #     echo "result.openBadgeId is : $(jq -r '.result[0].openBadgeId' /tmp/assert_call_response.json)"
+      #     jq -r '.result[0].openBadgeId' /tmp/assert_call_response.json > /tmp/badge_openBadgeId
       - name: prepare grade report
         run: |
           echo "---  " > /tmp/grade_report.pr${{ github.event.number }}.${{ github.event.repository.name }}.md
@@ -321,6 +366,13 @@ jobs:
           echo "Course_Name: ${{ github.event.repository.name }}  " >> /tmp/grade_report.pr${{ github.event.number }}.${{ github.event.repository.name }}.md
           echo "Certificate_Request_Date: $(date)  " >> /tmp/grade_report.pr${{ github.event.number }}.${{ github.event.repository.name }}.md
           echo "Course_URL: https://modernappsninja.github.io/${{ github.event.repository.name }}/  " >> /tmp/grade_report.pr${{ github.event.number }}.${{ github.event.repository.name }}.md
+          echo "   " >> /tmp/grade_report.pr${{ github.event.number }}.${{ github.event.repository.name }}.md
+          echo "Course_Grade: ${{ env.course_grade }}" >> /tmp/grade_report.pr${{ github.event.number }}.${{ github.event.repository.name }}.md
+          if [ '${{ env.passing_grade }}' == 'true']
+          then
+            echo "OpenBadge_EntityId: $(cat /tmp/badge_entityId)" >> /tmp/grade_report.pr${{ github.event.number }}.${{ github.event.repository.name }}.md
+            echo 'OpenBadge_Url: ['$(cat /tmp/badge_openBadgeId)']('$(cat /tmp/badge_openBadgeId)')' >> /tmp/grade_report.pr${{ github.event.number }}.${{ github.event.repository.name }}.md
+          fi
           echo "   " >> /tmp/grade_report.pr${{ github.event.number }}.${{ github.event.repository.name }}.md
           cat /tmp/${{ github.event.repository.name }}_grading_stub >> /tmp/grade_report.pr${{ github.event.number }}.${{ github.event.repository.name }}.md
       - name: encode grade report with base64 -w 0
@@ -336,6 +388,7 @@ jobs:
           "https://api.github.com/repos/modernappsninjas/${{ github.event.sender.login }}/contents/static/userdata/courses/${{ github.event.repository.name }}/grade_report.pr${{ github.event.number }}.${{ github.event.repository.name }}.md" \
           -o /tmp/member_grade_report_post_response.json
       - name: pull existing member course card sha
+        if: env.passing_grade == 'true'
         run: |
           # Pull member course card
           curl -H "Authorization: token ${{ secrets.NINJABOTGURU }}" \
@@ -345,20 +398,26 @@ jobs:
           echo member_course_card_old_sha=$(yq e '.sha' /tmp/member_course_card_old)
           echo member_course_card_old_sha=$(yq e '.sha' /tmp/member_course_card_old) >> $GITHUB_ENV
       - name: pull member course card stub
+        if: env.passing_grade == 'true'
         run: |
           # Pull latest member course card stub
           curl -H "Authorization: token ${{ secrets.NINJABOTGURU }}" \
           "https://raw.githubusercontent.com/modernappsninja/${{ github.event.repository.name }}/main/static/admin/assets/coursecards/memberrepocard/member_course_card_stub.md" \
           -o /tmp/member_course_card_stub.md
       - name: pull member course record top
+        if: env.passing_grade == 'true'
         run: |
           # Pull latest member course record top 
           curl -H "Authorization: token ${{ secrets.NINJABOTGURU }}" \
           "https://raw.githubusercontent.com/modernappsninja/${{ github.event.repository.name }}/main/static/admin/assets/coursecards/memberrepocard/member_course_record_top.yml" \
           -o /tmp/member_course_record_top.yml
       - name: update member course record top to Status Completed
+        if: env.passing_grade == 'true'
         run: |
-          sed -i '/^Status/c\Status: Completed' /tmp/member_course_record_top.yml
+          sed -i '/^Status/c\Status: Completed\n#####\nzaa\n' /tmp/member_course_record_top.yml
+          sed -i '/^zaa/c\OpenBadge_EntityId: '$(cat /tmp/badge_entityId)'\n#####\nzbb\n' /tmp/member_course_record_top.yml
+          sed -i '/^zbb/c\OpenBadge_Certificate_Url: ['$(cat /tmp/badge_openBadgeId)']('$(cat /tmp/badge_openBadgeId)')\n#####\n' /tmp/member_course_record_top.yml
+          cat /tmp/member_course_record_top.yml
       - name: pull member course record bottom
         run: |
           # Pull latest member course record bottom
@@ -366,16 +425,20 @@ jobs:
           "https://raw.githubusercontent.com/modernappsninja/${{ github.event.repository.name }}/main/static/admin/assets/coursecards/memberrepocard/member_course_record_bottom.yml" \
           -o /tmp/member_course_record_bottom.yml
       - name: update member course record bottom to Completion_Certificate Awarded
+        if: env.passing_grade == 'true'
         run: |
-          sed -i '/^Completion_/c\Completion_Certificate: Awarded' /tmp/member_course_record_bottom.yml
+          sed -i '/^Completion_/c\Completion_Certificate: [Awarded]('$(cat /tmp/badge_openBadgeId)')' /tmp/member_course_record_bottom.yml
       - name: pull latest course meta
+        if: env.passing_grade == 'true'
         run: |
           # Pull latest course_meta.yml card
           curl -H "Authorization: token ${{ secrets.NINJABOTGURU }}" \
           "https://raw.githubusercontent.com/modernappsninja/${{ github.event.repository.name }}/main/static/admin/assets/coursecards/course_meta.yml" \
           -o /tmp/course_meta.yml
           sed -i '/^draft:/c\draft: false' /tmp/course_meta.yml
+          sed -i '/^type:/c\type: cert' /tmp/course_meta.yml
       - name: prepare updated member course card
+        if: env.passing_grade == 'true'
         run: |
           # combine course meta, member course card stub, member course record top, test grading stub and member course record bottom to create new member course card file
           cat /tmp/course_meta.yml > /tmp/member_course_card.md
@@ -384,13 +447,25 @@ jobs:
           cat /tmp/${{ github.event.repository.name }}_grading_stub >> /tmp/member_course_card.md
           cat /tmp/member_course_record_bottom.yml >> /tmp/member_course_card.md
           cat /tmp/member_course_card.md | base64 -w 0 >> /tmp/member_course_card.md.base64
-      - name: post updated member course card to member repo
+      - name: delete member course record card from courses
+      # member course record card will be reposted to certs dir to reflect completed status
+        if: env.passing_grade == 'true'
+        run: |
+          curl -X DELETE \
+          -H "Authorization: token ${{ secrets.NINJABOTGURU }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          -d '{"message": "deleting member record card from registered members dir to prepare to repost in certs dir to reflect completed status","sha":"${{ env.member_course_card_old_sha }}"}' \
+          "https://api.github.com/repos/modernappsninjas/${{ github.event.sender.login }}/contents/content/english/course/${{ github.event.repository.name }}.md" \
+          -o /tmp/member_course_record_delete_response.json
+          cat /tmp/member_course_record_delete_response.json
+      - name: post updated member course card to member repo certs dir
+        if: env.passing_grade == 'true'
         run: |
           curl -X PUT \
           -H "Authorization: token ${{ secrets.NINJABOTGURU }}" \
           -H "Accept: application/vnd.github.v3+json" \
-          -d '{"message": "Posting updated member course record card", "content": "'$(cat /tmp/member_course_card.md.base64)'","sha":"${{ env.member_course_card_old_sha }}"}' \
-          "https://api.github.com/repos/modernappsninjas/${{ github.event.sender.login }}/contents/content/english/course/${{ github.event.repository.name }}.md" \
+          -d '{"message": "Posting updated member course record card", "content": "'$(cat /tmp/member_course_card.md.base64)'"}' \
+          "https://api.github.com/repos/modernappsninjas/${{ github.event.sender.login }}/contents/content/english/certs/${{ github.event.repository.name }}.md" \
           -o /tmp/member_course_card_post_response.json
       - name: merge_pull_request
         if: env.passing_grade == 'true'
@@ -443,7 +518,7 @@ jobs:
           "https://api.github.com/repos/${{ env.org_repo }}/contents/static/admin/userdata/certs_awarded/${{ github.event.sender.login }}.yml" \
           -o /tmp/certs_awarded_update_response.json
           cat /tmp/certs_awarded_update_response.json
-      - name: gather member registration file sha
+      - name: gather member course registration file sha
         if: env.passing_grade == 'true'
         run: |
           curl \
@@ -487,7 +562,7 @@ jobs:
           curl -X POST \
           -H "Authorization: token ${{ secrets.NINJABOTGURU }}" \
           -H "Accept: application/vnd.github.v3+json" \
-          -d '{"event": "COMMENT", "body": "@${{ github.event.sender.login }} Your [grade report](https://github.com/modernappsninjas/${{ github.event.sender.login }}/static/userdata/courses/${{ github.event.repository.name }}/grade_report.pr${{ github.event.number }}.${{ github.event.repository.name }}.md) and [course record card](https://modernappsninjas.github.io/${{ github.event.sender.login }}/course/${{ github.event.repository.name }}.md) have been updated in your member repository to reflect your testing records. Please note this PR will be closed and not merged to keep the answer sheet clear for other users. We recommend deleting the branch in your fork you used to submit this PR."}' \
+          -d '{"event": "COMMENT", "body": "@${{ github.event.sender.login }} Your [grade report](https://github.com/modernappsninjas/${{ github.event.sender.login }}/blob/main/static/userdata/courses/${{ github.event.repository.name }}/grade_report.pr${{ github.event.number }}.${{ github.event.repository.name }}.md) and [member repository](https://modernappsninjas.github.io/${{ github.event.sender.login }}/) have been updated to reflect your testing records."}' \
           "https://api.github.com/repos/${{ env.org_repo }}/pulls/${{ github.event.number }}/reviews" \
           -o /tmp/pr_comment_post_response.json
           cat /tmp/pr_comment_post_response.json
