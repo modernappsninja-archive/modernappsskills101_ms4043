@@ -518,13 +518,14 @@ jobs:
             curl -X POST \
               -H "Authorization: token $GITHUB_OAUTH_TOKEN" \
               -H "Accept: application/vnd.github.v3+json" \
-              "https://api.github.com/repos/modernappsninja/vSphereTanzu301_vt4163/labels" \
-              -d '{"name": '$name', "description": '$description', "color": '$color'}'
+              "https://api.github.com/repos/modernappsninja/${{ env.course_repo_name }}/labels" \
+              -d '{"name": '$name', "description": '$description', "color": '$color'}' \
+              -o /tmp/loop${Loopnum}_label_post_return.json
+              cat /tmp/loop${Loopnum}_label_post_return.json
             echo "the curl call for loopnum $Loopnum completed"
             export Loopnum=$(($Loopnum+1))
             echo the next loopnum is now set as: $Loopnum
           done
-          cat /tmp/create_label_returns.json
       - name: create discussion message on course team page with details on new course assets
         run: |
           body='Welcome to the ${{ env.course_repo_name }} course team @${{ github.event.sender.login }}!
