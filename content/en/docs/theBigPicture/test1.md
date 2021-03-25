@@ -9,6 +9,7 @@ All Modernapps Ninja learning content is publicly accessible and available openl
 
 Ninja tests use devops tools and processes so the testing system itself is educational and provides both experience and validation of foundational devops skills. 
 
+{{< youtube J_nV5YPypqs >}}
 
 ## Instructions
 
