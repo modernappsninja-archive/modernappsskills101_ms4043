@@ -504,7 +504,7 @@ jobs:
         run: |
           IFS=$'\n'
           File="/tmp/ninja_label_list.json"
-          Loops=$(cat $File | jq -r '.name' | wc -l)
+          Loops=$(cat $File | jq -r '.[].name' | wc -l)
           Loopnum=0
           while [ $Loopnum -lt $Loops ]
           do
