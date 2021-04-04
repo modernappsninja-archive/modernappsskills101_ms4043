@@ -196,7 +196,7 @@ jobs:
           curl -X POST \
           -H "Authorization: token ${{ secrets.NINJABOTGURU }}" \
           -H "Accept: application/vnd.github.v3+json" \
-          -d '{"event": "COMMENT", "body": "@'${{ github.event.sender.login }}' you have successfully registered for this course. A new member record card for this course has been posted to your member repository at [https://github.com/modernappsninjas/${{ github.event.sender.login }}/course/${{ github.event.repository.name }}.md](https://github.com/modernappsninjas/${{ github.event.sender.login }}/course/${{ github.event.repository.name }}.md). This PR will now be closed."}' \
+          -d '{"event": "COMMENT", "body": "@'${{ github.event.sender.login }}' you have successfully registered for this course. A new member record card for this course has been posted to your member repository at https://github.com/modernappsninjas/${{ github.event.sender.login }}/tree/main/content/english/course/${{ github.event.repository.name }}.md. This PR will now be closed."}' \
           "https://api.github.com/repos/${{ env.org_repo }}/pulls/${{ github.event.number }}/reviews" \
           -o /tmp/pr_comment_post_response.json
           cat /tmp/pr_comment_post_response.json
