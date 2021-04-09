@@ -562,7 +562,7 @@ jobs:
           curl -X POST \
           -H "Authorization: token ${{ secrets.NINJABOTGURU }}" \
           -H "Accept: application/vnd.github.v3+json" \
-          -d '{"event": "COMMENT", "body": "@${{ github.event.sender.login }} Your [grade report](https://github.com/modernappsninjas/${{ github.event.sender.login }}/blob/main/static/userdata/courses/${{ github.event.repository.name }}/grade_report.pr${{ github.event.number }}.${{ github.event.repository.name }}.md) and [member repository](https://modernappsninjas.github.io/${{ github.event.sender.login }}/) have been updated to reflect your testing records."}' \
+          -d '{"event": "COMMENT", "body": "@${{ github.event.sender.login }} Your [grade report](https://github.com/modernappsninjas/${{ github.event.sender.login }}/blob/main/static/userdata/courses/${{ github.event.repository.name }}/grade_report.pr${{ github.event.number }}.${{ github.event.repository.name }}.md) and [member course record card](https://github.com/modernappsninjas/${{ github.event.sender.login }}/tree/main/content/english/certs/${{ github.event.repository.name }}.md) have been updated to reflect your testing records."}' \
           "https://api.github.com/repos/${{ env.org_repo }}/pulls/${{ github.event.number }}/reviews" \
           -o /tmp/pr_comment_post_response.json
           cat /tmp/pr_comment_post_response.json
