@@ -52,7 +52,7 @@ Note the page displays a message that `You’re making changes in a project you 
 
 The pull request process works by submitting a copy of your new or updated file to the repository, which will only be applied to the course repository if a course administrator approves the request. Because you do not have write access to the repository, github will create a special copy called a `fork` of the course repository within your github account with your new or updated files, and use your copy to save the updates you're submitting to the official course repository as shown in the following steps.
 
-In your browser tab to the new registration document, above the document editor in the file name field, type in the name of the file in the format `your_github_username.yml`, replacing the value **your_github_username** with the username for your github account. 
+In your browser tab to the new registration document, above the document editor in the file name field, type in the name of the file in the format `your_github_username.yml`, replacing the value **your_github_username** with the username for your github account. And don't forget the **.yml** extension.
 
 The following screenshot shows an example of this step using the github username `Oni-no-Hanzo`
 
