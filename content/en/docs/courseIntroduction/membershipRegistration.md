@@ -10,8 +10,8 @@ weight: 1013
   - [Register for this course](#register-for-this-course)
     - [Step 1 - Open the new course registration document link](#step-1---open-the-new-course-registration-document-link)
     - [Step 2 - Name your .yml file](#step-2---name-your-file)
-    - [Step 3 - Add a line to your file](#step-3---add-a-line-to-your-file)
-    - [Step 4 - Submit your registration document](#step-4---submit-your-registration-document)
+    - [Step 3 - Add a line to your .yml file](#step-3---add-a-line-to-your-file)
+    - [Step 4 - Submit your .yml registration document](#step-4---submit-your-registration-document)
 
 
 {{< youtube Ad4ObhsOaJk >}}
@@ -60,13 +60,13 @@ The following screenshot shows an example of this step using the github username
 
 ![Screenshot of File Naming](https://modernapps.ninja/course_repo_template_ct8279/admin/assets/images/course_registration_file_naming.png)
 
-#### Step 3 - Add a line to your file
+#### Step 3 - Add a line to your .yml file
 
 On line 1 in the document editor, type `status: in-progress` as shown in the following screenshot:
 
 ![Screenshot of File Editing](https://modernapps.ninja/course_repo_template_ct8279/admin/assets/images/course_registration_file_editing.png)
 
-#### Step 4 - Submit your registration document
+#### Step 4 - Submit your .yml registration document
 
 Scroll to the bottom of the registration document page and click `Propose New File` as shown in the following image:
 
