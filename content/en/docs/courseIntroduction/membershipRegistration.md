@@ -9,7 +9,7 @@ weight: 1013
   - [Join the ModernApps Ninja Community!](#join-the-modernapps-ninja-community)
   - [Register for this course](#register-for-this-course)
     - [Step 1 - Open the new course registration document link](#step-1---open-the-new-course-registration-document-link)
-    - [Step 2 - Name your file](#step-2---name-your-file)
+    - [Step 2 - Name your .yml file](#step-2---name-your-file)
     - [Step 3 - Add a line to your file](#step-3---add-a-line-to-your-file)
     - [Step 4 - Submit your registration document](#step-4---submit-your-registration-document)
 
@@ -46,7 +46,7 @@ Please right click the following link and select the option to open it in a new 
 
 [Right Click Here and select the option to open link in new tab](https://github.com/ModernAppsNinja/vSphereTanzu301_vt4163/tree/main/static/admin/userdata/registered_members) and click on `Add File > Create new file`
 
-#### Step 2 - Name your file
+#### Step 2 - Name your .yml file
 
 Note the page displays a message that `You’re making changes in a project you don’t have write access to. Submitting a change will write it to a new branch in your fork YOUR_GITHUB_USERNAME/COURSE_REPOSITORY_NAME, so you can send a pull request.`
 
