@@ -1,0 +1,28 @@
+---
+## This Document Provides the Front Matter and Metadata for the Course Information page used in the modernapps.ninja homepage and the member profile page.
+### Hugo Template Metadata
+title: "$course_title"
+date: "$current_date"
+draft: true
+# meta description
+description: "$course_description"
+# course thumbnail
+image: "https://modernapps.ninja/$course_repo_name/admin/assets/images/$course_repo_name.jpg"
+# taxonomy
+tags: ["Tanzu Portfiolio"]
+# teacher
+teacher: "Ninja Admins"
+# duration
+duration: "0 Hours"
+# course fee
+fee: "Free!"
+# apply url
+apply_url: "https://modernapps.github.io/$course_repo_name"
+# type
+type: "course"
+### Extended Ninja Course Metadata
+content_id: $content_id
+course_short_title: $course_short_title
+course_navbar_title: $course_navbar_title
+course_repo_name: $course_repo_name
+---  

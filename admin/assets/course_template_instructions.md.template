@@ -1,0 +1,21 @@
+---
+title: "New Course Template Instructions"
+date: 2020-10-12T18:34:25-07:00
+weight: 905
+---
+
+Welcome to the template for your new course. 
+
+The github user account that initiated the course creation workflow request has been given maintainer persmissions on this repository, and can push or approve merges to content during course development. Once the course is ready to be published, branch protection settings will be added that will require at least two maintainers to approve changes.
+
+Every section after the New Course Template instructions are direct copies of an early version of the vSphere with Tanzu 101 course. 
+
+You may use the following sections and pages in this template as a reference. Modify, delete or add pages to customize the content with your desired course materials.
+
+You can find additional details on how to set up tests and completion certificates on the next pages in this section.
+
+This course template is based on Google's Docsy template, which provides detailed instructions you can use as a reference for modifying this template. Detailed instructions for the Docsy template can be found at [https://docsy.dev](https://docsy.dev).
+
+Once you have completed preparing your desired content and have verified it is ready for live publication, please go to the actions tab of the github repository for this course and initiate the `Publish This Course` workflow. The workflow will add branch protection settings and open a pull request to display the course in the modernapps.ninja course catalog once approved.
+
+If you have any questions or need any assistance, please post a message to [new course discussion board](https://github.com/ModernAppsNinja/modernappsninja.github.io/discussions) and mention the `@modernappsninja/maintainers` team in the body of your message. Or you can also open an issue ticket on the [https://github.com/modernappsninja/modernappsninja.gitub.io](https://github.com/modernappsninja/modernappsninja.gitub.io) repository.

@@ -1,0 +1,57 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ModernApps Skills 101 – Closing Summary</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/closingsummary/</link><description>Recent content in Closing Summary on ModernApps Skills 101</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 12 Oct 2020 20:17:08 -0700</lastBuildDate><atom:link href="https://modernappsninja.github.io/modernappsskills101_ms4043/docs/closingsummary/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Course Completion Certificate</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/closingsummary/completioncertificate/</link><pubDate>Fri, 09 Oct 2020 03:15:26 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/closingsummary/completioncertificate/</guid><description>
+&lt;p>If you have completed all tests in the course and recieved over 70% correct responses, you can make an automated request to recieve a certificate of completion for this course.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/ywLPw0QdU08" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>To request your certificate of completion:&lt;/p>
+&lt;ol>
+&lt;li>In a seperate browser tab navigate to: &lt;a href="https://github.com/ModernAppsNinja/vSphereTanzu301_vt4163/tree/main/static/admin/userdata/certs_awarded">https://github.com/ModernAppsNinja/vSphereTanzu301_vt4163/tree/main/static/admin/userdata/certs_awarded&lt;/a>&lt;/li>
+&lt;li>Click on the &lt;code>Add file&lt;/code> button to add a new file&lt;/li>
+&lt;li>Name the file using your own github username in the format &lt;code>yourgithubusername.yml&lt;/code>&lt;/li>
+&lt;li>In the body of the file type: &lt;code>Status: Completed&lt;/code>&lt;/li>
+&lt;li>Click on &lt;code>Propose new file&lt;/code> and then &lt;code>Create pull request&lt;/code> to submit your new file.&lt;/li>
+&lt;/ol>
+&lt;p>When you submit your new file as described in the steps above (also called making a pull request) it will trigger an automated github action workflow that will:&lt;/p>
+&lt;ul>
+&lt;li>Compare the total quantity of tests in the course with the quantity of tests you have completed to ensure you have completed all required tests for the course&lt;/li>
+&lt;li>Tabulate the total quantity of all test questions from all tests&lt;/li>
+&lt;li>Compare the quantity of questions you have answered correctly against the total quantity of questions for all tests to ensure you have attained a minimum of 70% correct answers&lt;/li>
+&lt;li>Post grade report and updated course record card to your member repository&lt;/li>
+&lt;li>Append a message to the pull request to notify the requesting user the course grading is complete, the result, and links to the updated grade report and course record card.
+&lt;ul>
+&lt;li>The requesting members github account will be mentioned in the posted message, which will trigger a github notification to the requestors github account and associated email address.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>In the event that a user requests a certificate and does not have the minimum required grade to pass, a grade report will be provided that will include details on the percent of correct answers for each test in the course, highlighting which test(s) may need to be retaken to achieve a passing grade. Members can then retake any tests necesarry to increase their grade, and then repeat the above process again to request that the certificate service run again.&lt;/p>
+&lt;p>If you encounter any problems with testing or with the certificate process, please open an issue ticket on this course.&lt;/p></description></item><item><title>Docs: Resources and References</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/closingsummary/resourcesandreferences/</link><pubDate>Mon, 12 Oct 2020 20:18:29 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/closingsummary/resourcesandreferences/</guid><description>
+&lt;p>&lt;strong>Links to additional materials:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>For more information on vSphere with Tanzu check out the &lt;a href="https://www.vmware.com/products/vsphere.html">vSphere
+product&lt;/a> page.&lt;/li>
+&lt;li>&lt;a href="https://blogs.vmware.com/vsphere/2020/09/announcing-vsphere-with-tanzu.html">vSphere with
+Tanzu&lt;/a> by
+Kit Colbert&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=d6Hc2ceghIk&amp;amp;feature=youtu.be">vSphere with Tanzu -
+YouTube&lt;/a> by
+Sheldon D'Paiva &lt;/li>
+&lt;li>ebook: &lt;a href="https://www.vmware.com/learn/648341_REG.html">Deliver Developer-Ready Infrastructure Using vSphere with
+Tanzu&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://kube.academy/">KubeAcademy&lt;/a> courses are composed of a
+series of bite-size video lessons - terrific resource for learning
+about containers, Kubernetes, and Cloud Native Concepts.&lt;/li>
+&lt;li>&lt;a href="https://tanzu.vmware.com/content/blog/simply-scaling-a-tanzu-kubernetes-cluster-with-the-tkg-service-for-vsphere">Scaling a Tanzu
+Kubernetes&lt;/a> Cluster
+by Kenny Coleman&lt;/li>
+&lt;li>&lt;a href="https://tanzu.vmware.com/content/blog/an-elevated-view-of-the-tanzu-kubernetes-grid-service-architecture">An Elevated View of the Tanzu Kubernetes Kubernetes Grid Service
+Architecture&lt;/a> by
+Kenny Coleman&lt;/li>
+&lt;li>&lt;a href="https://tanzu.vmware.com/content/blog/dissecting-a-tanzu-kubernetes-cluster-spec-with-the-tkg-service-for-vsphere">Dissecting a Tanzu Kubernetes Cluster Spec with the TKG Service for
+vSphere&lt;/a> by
+Kenny Coleman&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Web:&lt;/strong> &lt;a href="https://tanzu.vmware.com">https://tanzu.vmware.com&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Blog:&lt;/strong> &lt;a href="https://tanzu.vmware.com/blog">https://tanzu.vmware.com/blog&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Twitter:&lt;/strong> @vmwaretanzu&lt;/p>
+&lt;p>&lt;strong>Email:&lt;/strong> asktanzu@vmware.com&lt;/p></description></item><item><title>Docs: Course Complete</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/closingsummary/coursecomplete/</link><pubDate>Mon, 12 Oct 2020 20:20:53 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/closingsummary/coursecomplete/</guid><description>
+&lt;p>Thank you for completing the course!&lt;/p></description></item></channel></rss>
