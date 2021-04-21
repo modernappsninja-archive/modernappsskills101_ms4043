@@ -1,5 +1,5 @@
-baseURL = "https://modernappsninja.github.io/course_repo_template_ct8279/"
-title = "ModernApps Ninja New Course Template"
+baseURL = "https://modernappsninja.github.io/modernappsskills101_ms4043"
+title = "ModernApps Skills 101"
 
 enableRobotsTXT = true
 
@@ -53,8 +53,8 @@ id = "UA-162817887-1"
 
 [languages]
 [languages.en]
-title = "ModernApps Ninja New Course Template"
-description = "Learn how to create a ModernApps Ninja Course with the New Course Template"
+title = "ModernApps Skills 101"
+description = "Introduction to ModernApps Learning by VMware Tanzu"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
@@ -101,10 +101,10 @@ archived_version = false
 
 # A link to latest version of the docs. Used in the "version-banner" partial to
 # point people to the main doc site.
-url_latest_version = "https://modernappsninja.github.io/course_repo_template_ct8279/"
+url_latest_version = "https://modernappsninja.github.io/modernappsskills101_ms4043/"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/ModernAppsNinja/course_repo_template_ct8279/"
+github_repo = "https://github.com/ModernAppsNinja/modernappsskills101_ms4043/"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
 github_project_repo = "https://github.com/ModernAppsNinja/modernappsninja.github.io"
 # The branch that will be referenced in the edit this page and create child page links
