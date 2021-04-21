@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ModernApps Skills 101 – Reference Section</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/reference/</link><description>Recent content in Reference Section on ModernApps Skills 101</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 09 Oct 2020 03:24:25 -0700</lastBuildDate><atom:link href="https://modernappsninja.github.io/modernappsskills101_ms4043/docs/reference/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: How to submit tests</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/reference/testinstructions/</link><pubDate>Fri, 09 Oct 2020 03:15:26 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/reference/testinstructions/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ModernApps Ninja New Course Template – Reference Section</title><link>https://modernappsninja.github.io/course_repo_template_ct8279/docs/reference/</link><description>Recent content in Reference Section on ModernApps Ninja New Course Template</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 09 Oct 2020 03:24:25 -0700</lastBuildDate><atom:link href="https://modernappsninja.github.io/course_repo_template_ct8279/docs/reference/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: How to submit tests</title><link>https://modernappsninja.github.io/course_repo_template_ct8279/docs/reference/testinstructions/</link><pubDate>Fri, 09 Oct 2020 03:15:26 -0700</pubDate><guid>https://modernappsninja.github.io/course_repo_template_ct8279/docs/reference/testinstructions/</guid><description>
 &lt;p>All Modernapps Ninja learning content is publicly accessible and available openly, however a free membership is required to take tests and recieve a certificate of completion for the course. You must first &lt;a href="https://modernapps.ninja/about/membership/">join the community&lt;/a> and register for this course per the insructions in the course introduction section before attempting to submit a test.&lt;/p>
 &lt;p>Ninja tests use devops tools and processes so the testing system itself is educational and provides both experience and validation of foundational devops skills.&lt;/p>
 &lt;h2 id="instructions">Instructions&lt;/h2>
@@ -7,7 +7,7 @@
 &lt;p>Every test question is titled &amp;ldquo;Question&amp;rdquo; followed by its order, for example Question1, Question2, Question3 etc&amp;hellip;&lt;/p>
 &lt;p>All questions will provide a list of possible answers. Each possible answer is represented by a lowercase letter, the first response is option &amp;ldquo;a&amp;rdquo;, the second is option &amp;ldquo;b&amp;rdquo; and so on, as shown in the example questions below.&lt;/p>
 &lt;p>The Answer sheet will open in Github&amp;rsquo;s web-based editor, similar to the image shown below:&lt;/p>
-&lt;p>&lt;img src="https://modernappsninja.github.io/modernappsskills101_ms4043/vSphereTanzu301_vt4163/admin/assets/images/blank_test_screen_example.png" alt="Example Test Response Sheet">&lt;/p>
+&lt;p>&lt;img src="https://modernappsninja.github.io/course_repo_template_ct8279/vSphereTanzu301_vt4163/admin/assets/images/blank_test_screen_example.png" alt="Example Test Response Sheet">&lt;/p>
 &lt;p>After you fill in your answer sheet, you will submit your responses as a git &lt;a href="https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests">pull request&lt;/a> following the instructions provided below, which will trigger a workflow that will grade your responses and provide your test grading sheet.&lt;/p>
 &lt;h3 id="example-questions">Example Questions&lt;/h3>
 &lt;p>Tests may contain two types of questions, multiple choice single answer, and multiple choice multiple answer, as shown in the examples below.&lt;/p>
@@ -40,7 +40,7 @@ Question2: a,c,e
 Question3:
 &lt;/code>&lt;/pre>&lt;h3 id="submitting-your-test-response">Submitting your test response&lt;/h3>
 &lt;p>After you fill in responses to all questions, scroll to the bottom of the screen and click the propose changes button as shown below:&lt;/p>
-&lt;p>&lt;img src="https://modernappsninja.github.io/modernappsskills101_ms4043/vSphereTanzu301_vt4163/admin/assets/images/propose_changes.png" alt="propose_new_file">&lt;/p>
+&lt;p>&lt;img src="https://modernappsninja.github.io/course_repo_template_ct8279/vSphereTanzu301_vt4163/admin/assets/images/propose_changes.png" alt="propose_new_file">&lt;/p>
 &lt;p>After you click propose changes:&lt;/p>
 &lt;ul>
 &lt;li>GitHub will automatically create a copy of the course repository on a new special copy of the repository called a &lt;strong>fork&lt;/strong> in your github account.&lt;/li>
@@ -48,7 +48,7 @@ Question3:
 &lt;li>Your browser will be directed to a screen where you can submit the updated document from your fork to the course repository&lt;/li>
 &lt;/ul>
 &lt;p>Your browser should now show the &lt;code>Comparing Changes&lt;/code> screen, as shown in the image below:&lt;/p>
-&lt;p>&lt;img src="https://modernappsninja.github.io/modernappsskills101_ms4043/vSphereTanzu301_vt4163/admin/assets/images/comparing_changes.png" alt="comparing_changes">&lt;/p>
+&lt;p>&lt;img src="https://modernappsninja.github.io/course_repo_template_ct8279/vSphereTanzu301_vt4163/admin/assets/images/comparing_changes.png" alt="comparing_changes">&lt;/p>
 &lt;p>Observe that in the top part of the Comparing Changes screen:&lt;/p>
 &lt;ul>
 &lt;li>The &lt;code>base repository&lt;/code> is the repository you are proposing changes to&lt;/li>
