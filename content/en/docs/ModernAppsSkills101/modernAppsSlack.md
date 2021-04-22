@@ -1,5 +1,5 @@
 ---
-title: "ModernApps Learning by VMware Tanzu Slack channel"
+title: "ModernApps Ninja Slack channel"
 date: 2020-10-12T18:35:13-07:00
 weight: 3020
 
