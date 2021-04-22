@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ModernApps Ninja New Course Template – Course Introduction</title><link>https://modernappsninja.github.io/course_repo_template_ct8279/docs/courseintroduction/</link><description>Recent content in Course Introduction on ModernApps Ninja New Course Template</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 12 Oct 2020 18:34:25 -0700</lastBuildDate><atom:link href="https://modernappsninja.github.io/course_repo_template_ct8279/docs/courseintroduction/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Tech Preview</title><link>https://modernappsninja.github.io/course_repo_template_ct8279/docs/courseintroduction/techpreview/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/course_repo_template_ct8279/docs/courseintroduction/techpreview/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ModernApps Skills 101 – Course Introduction</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/</link><description>Recent content in Course Introduction on ModernApps Skills 101</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 12 Oct 2020 18:34:25 -0700</lastBuildDate><atom:link href="https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Tech Preview</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/techpreview/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/techpreview/</guid><description>
 &lt;p>&lt;strong>Please Note: This course is currently in technical preview&lt;/strong> for
 additional review and feedback before the course is generally available.
 The purpose of the preview is to validate all information in the course
@@ -11,8 +11,9 @@ are appreciated from small grammar improvements to bigger additions.
 Please describe your suggestions with as much detail as possible. If you
 would like to discuss directly with the course development team we would
 appreciate it!&lt;/p>
-&lt;p>On each page on this course, on the right nav bar you can see a link to open an issue ticket to provide feedback and suggestions. Thank you!&lt;/p></description></item><item><title>Docs: Welcome to the Course</title><link>https://modernappsninja.github.io/course_repo_template_ct8279/docs/courseintroduction/welcometothecourse/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/course_repo_template_ct8279/docs/courseintroduction/welcometothecourse/</guid><description>
-&lt;p>This course provides a technical introduction to vSphere with Tanzu.&lt;/p>
+&lt;p>On each page on this course, on the right nav bar you can see a link to open an issue ticket to provide feedback and suggestions. Thank you!&lt;/p></description></item><item><title>Docs: Welcome to the Course</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/welcometothecourse/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/welcometothecourse/</guid><description>
+&lt;p>Welcome to the ModernApps Ninja 101 Skills Course!&lt;/p>
+&lt;p>This course provides an introduction to the ModernApps Ninja learning community. The ModernApps Ninja program is much more than just the learning portal and is really intended to be an active community of professionals learning and working towards applying new skills in cloud native technologies. In this course you will learn about the past and future vision for the community, and about the different sites and assets available to the community, including the ModernApps Ninja github org, slack channel and google group.&lt;/p>
 &lt;p>If you complete all steps in this course, you can request a certificate
 of completion, by following the instructions provided at the end of the
 course. &lt;/p>
@@ -20,10 +21,7 @@ course. &lt;/p>
 we really need your help to report issues, suggest improvements, or help
 with the many volunteer opportunities available to support the
 community.&lt;/p>
-&lt;p>Thank you for investing your time!&lt;/p>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/5V03CSMkm2c" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
-&lt;/div></description></item><item><title>Docs: Community Membership and Course Registration</title><link>https://modernappsninja.github.io/course_repo_template_ct8279/docs/courseintroduction/membershipregistration/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/course_repo_template_ct8279/docs/courseintroduction/membershipregistration/</guid><description>
+&lt;p>Thank you for investing your time!&lt;/p></description></item><item><title>Docs: Community Membership and Course Registration</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/membershipregistration/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/membershipregistration/</guid><description>
 &lt;ul>
 &lt;li>&lt;a href="#requirements-for-tests-and-course-completion-certificates">Requirements for tests and course completion certificates&lt;/a>
 &lt;ul>
@@ -85,28 +83,11 @@ community.&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;p>This completes the course registration process, once you have completed the above steps, you can proceed through the course and participate in any steps such as tests and completion certificates that require course registration.&lt;/p>
-&lt;p>Thank you!&lt;/p></description></item><item><title>Docs: Target Audience</title><link>https://modernappsninja.github.io/course_repo_template_ct8279/docs/courseintroduction/targetaudience/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/course_repo_template_ct8279/docs/courseintroduction/targetaudience/</guid><description>
-&lt;p>This course is designed for Information Technology Professionals
-interested in learning more about VMware vSphere with Tanzu.&lt;/p>
+&lt;p>Thank you!&lt;/p></description></item><item><title>Docs: Target Audience</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/targetaudience/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/targetaudience/</guid><description>
+&lt;p>This course is designed for Information Technology Students and Professionals interested in learning more about the ModernApps Community.&lt;/p>
 &lt;p>Please complete the course prerequisites and review the lab completion
-difficulty to ensure you are fully prepared to succeed in this course.&lt;/p></description></item><item><title>Docs: Prerequisites</title><link>https://modernappsninja.github.io/course_repo_template_ct8279/docs/courseintroduction/prerequisites/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/course_repo_template_ct8279/docs/courseintroduction/prerequisites/</guid><description>
-&lt;p>We recommend taking the &lt;a href="https://www.modernapps.ninja/courses/course-v1:modernapps+COU-TP6539+Perpetual/course/">Introduction to VMware Tanzu
-Portfolio&lt;/a> course
-prior to taking the vSphere with Tanzu 101 course. &lt;/p>
-&lt;p>We also recommend completing the &lt;a href="https://www.modernapps.ninja/courses/course-v1:modernapps+COU-MN7417+Perpetual/course/">ModernApps Ninja 101
-course&lt;/a> to
-learn about the community resources available to support this course and
-maximize your learning experience.&lt;/p>
-&lt;p>This course assumes familiarity with Kubernetes and Cloud Native
-Technologies. If you are not familiar with these technologies, we
-recommend checking out &lt;a href="https://kube.academy/">KubeAcademy&lt;/a> by VMware,
-which has a terrific set of free, bite-size video resources on the
-basics of containers, Kubernetes and cloud native that are great for
-beginners.&lt;/p>
-&lt;p>Before taking this course, you should also have familiarity with vSphere
-administration. If you need additional background in vSphere, we
-recommend checking out &lt;a href="https://hol.vmware.com">VMware Hands on Labs&lt;/a>,
-which offers a number of vSphere labs and content.&lt;/p></description></item><item><title>Docs: Course Updates and Freshness</title><link>https://modernappsninja.github.io/course_repo_template_ct8279/docs/courseintroduction/courseupdatesandfreshness/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/course_repo_template_ct8279/docs/courseintroduction/courseupdatesandfreshness/</guid><description>
+difficulty to ensure you are fully prepared to succeed in this course.&lt;/p></description></item><item><title>Docs: Prerequisites</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/prerequisites/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/prerequisites/</guid><description>
+&lt;p>This course has no specific prerequisites, however we recommend that participants have familiarity with enterprise information technology infrastructure and operations administration.&lt;/p></description></item><item><title>Docs: Course Updates and Freshness</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/courseupdatesandfreshness/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/courseupdatesandfreshness/</guid><description>
 &lt;p>We make a strong effort to keep the content in this course as current as
 possible, however the Tanzu Portfolio is rapidly growing and there may
 be times where this course may not include the newest updates. Always
@@ -118,12 +99,12 @@ this course is on a continuous update lifecycle. This means that the
 course can be updated at any time, and new content and requirements may
 be added while you are taking your course. We will make effort to notify
 students in advance of any significant updates are made to minimize any
-changes to course completion requirements. &lt;/p></description></item><item><title>Docs: Welcome to the Community</title><link>https://modernappsninja.github.io/course_repo_template_ct8279/docs/courseintroduction/welcometotheninjacommunity/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/course_repo_template_ct8279/docs/courseintroduction/welcometotheninjacommunity/</guid><description>
+changes to course completion requirements. &lt;/p></description></item><item><title>Docs: Welcome to the Community</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/welcometotheninjacommunity/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/welcometotheninjacommunity/</guid><description>
 &lt;p>Please watch the video below to learn more about the ModernApps Ninja Community!
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe src="https://www.youtube.com/embed/GlVSmFtIs1s" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
-&lt;/p></description></item><item><title>Docs: Course Input &amp; Feedback</title><link>https://modernappsninja.github.io/course_repo_template_ct8279/docs/courseintroduction/coursefeedback/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/course_repo_template_ct8279/docs/courseintroduction/coursefeedback/</guid><description>
+&lt;/p></description></item><item><title>Docs: Course Input &amp; Feedback</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/coursefeedback/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/coursefeedback/</guid><description>
 &lt;p>Your feedback for this course is critical to help ensure we can improve
 course content and quality and is greatly appreciated!&lt;/p>
 &lt;p>If you see any problems or suggestions for improvement in this course, the community is very grateful for your help. The simplest way to provide your input is to click the &lt;code>Edit this page&lt;/code> link on the right nav bar on each page on this site, and it will open a page to a simple web text editor where you can easily make any update or suggested input you have and then click a button to submit your update. If the course administrators approve your update, the commit and each line you update will be shown on your public Github profile and add value to your professional portfolio, and you will be listed as a contributor to the site.&lt;/p>
