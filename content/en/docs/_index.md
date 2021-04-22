@@ -1,6 +1,6 @@
 ---
-title: "ModernApps Skills 101"
-linkTitle: "ModernApps Skills 101"
+title: "ModernApps Ninja Skills 101"
+linkTitle: "ModernApps Ninja Skills 101"
 weight: 20
 menu:
   main:
