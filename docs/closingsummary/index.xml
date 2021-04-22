@@ -24,37 +24,12 @@
 &lt;/li>
 &lt;/ul>
 &lt;p>In the event that a user requests a certificate and does not have the minimum required grade to pass, a grade report will be provided that will include details on the percent of correct answers for each test in the course, highlighting which test(s) may need to be retaken to achieve a passing grade. Members can then retake any tests necesarry to increase their grade, and then repeat the above process again to request that the certificate service run again.&lt;/p>
-&lt;p>If you encounter any problems with testing or with the certificate process, please open an issue ticket on this course.&lt;/p></description></item><item><title>Docs: Resources and References</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/closingsummary/resourcesandreferences/</link><pubDate>Mon, 12 Oct 2020 20:18:29 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/closingsummary/resourcesandreferences/</guid><description>
-&lt;p>&lt;strong>Links to additional materials:&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>For more information on vSphere with Tanzu check out the &lt;a href="https://www.vmware.com/products/vsphere.html">vSphere
-product&lt;/a> page.&lt;/li>
-&lt;li>&lt;a href="https://blogs.vmware.com/vsphere/2020/09/announcing-vsphere-with-tanzu.html">vSphere with
-Tanzu&lt;/a> by
-Kit Colbert&lt;/li>
-&lt;li>&lt;a href="https://www.youtube.com/watch?v=d6Hc2ceghIk&amp;amp;feature=youtu.be">vSphere with Tanzu -
-YouTube&lt;/a> by
-Sheldon D'Paiva &lt;/li>
-&lt;li>ebook: &lt;a href="https://www.vmware.com/learn/648341_REG.html">Deliver Developer-Ready Infrastructure Using vSphere with
-Tanzu&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://kube.academy/">KubeAcademy&lt;/a> courses are composed of a
-series of bite-size video lessons - terrific resource for learning
-about containers, Kubernetes, and Cloud Native Concepts.&lt;/li>
-&lt;li>&lt;a href="https://tanzu.vmware.com/content/blog/simply-scaling-a-tanzu-kubernetes-cluster-with-the-tkg-service-for-vsphere">Scaling a Tanzu
-Kubernetes&lt;/a> Cluster
-by Kenny Coleman&lt;/li>
-&lt;li>&lt;a href="https://tanzu.vmware.com/content/blog/an-elevated-view-of-the-tanzu-kubernetes-grid-service-architecture">An Elevated View of the Tanzu Kubernetes Kubernetes Grid Service
-Architecture&lt;/a> by
-Kenny Coleman&lt;/li>
-&lt;li>&lt;a href="https://tanzu.vmware.com/content/blog/dissecting-a-tanzu-kubernetes-cluster-spec-with-the-tkg-service-for-vsphere">Dissecting a Tanzu Kubernetes Cluster Spec with the TKG Service for
-vSphere&lt;/a> by
-Kenny Coleman&lt;/li>
-&lt;/ul>
+&lt;p>If you encounter any problems with testing or with the certificate process, please open an issue ticket on this course.&lt;/p></description></item><item><title>Docs: Course Complete</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/closingsummary/coursecomplete/</link><pubDate>Mon, 12 Oct 2020 20:20:53 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/closingsummary/coursecomplete/</guid><description>
+&lt;p>Thank you for completing the course!&lt;/p></description></item><item><title>Docs: Resources and References</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/closingsummary/resourcesandreferences/</link><pubDate>Mon, 12 Oct 2020 20:18:29 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/closingsummary/resourcesandreferences/</guid><description>
 &lt;p>&lt;strong>Web:&lt;/strong> &lt;a href="https://tanzu.vmware.com">https://tanzu.vmware.com&lt;/a>&lt;/p>
 &lt;p>&lt;strong>Blog:&lt;/strong> &lt;a href="https://tanzu.vmware.com/blog">https://tanzu.vmware.com/blog&lt;/a>&lt;/p>
 &lt;p>&lt;strong>Twitter:&lt;/strong> @vmwaretanzu&lt;/p>
-&lt;p>&lt;strong>Email:&lt;/strong> asktanzu@vmware.com&lt;/p></description></item><item><title>Docs: Course Complete</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/closingsummary/coursecomplete/</link><pubDate>Mon, 12 Oct 2020 20:20:53 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/closingsummary/coursecomplete/</guid><description>
-&lt;p>Thank you for completing the course!&lt;/p></description></item><item><title>Docs: How to submit tests</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/closingsummary/testinstructions/</link><pubDate>Fri, 09 Oct 2020 03:15:26 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/closingsummary/testinstructions/</guid><description>
+&lt;p>&lt;strong>Email:&lt;/strong> asktanzu@vmware.com&lt;/p></description></item><item><title>Docs: How to submit tests</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/closingsummary/testinstructions/</link><pubDate>Fri, 09 Oct 2020 03:15:26 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/closingsummary/testinstructions/</guid><description>
 &lt;p>All Modernapps Ninja learning content is publicly accessible and available openly, however a free membership is required to take tests and recieve a certificate of completion for the course. You must first &lt;a href="https://modernapps.ninja/about/membership/">join the community&lt;/a> and register for this course per the insructions in the course introduction section before attempting to submit a test.&lt;/p>
 &lt;p>Ninja tests use devops tools and processes so the testing system itself is educational and provides both experience and validation of foundational devops skills.&lt;/p>
 &lt;h2 id="instructions">Instructions&lt;/h2>
