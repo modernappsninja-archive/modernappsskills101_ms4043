@@ -18,11 +18,11 @@ weight: 1013
 
 ## Requirements for tests and course completion certificates
 
-ModernApps Ninja learning content is free and open to anyone to view, however to take tests and receive certificates of completion for courses, you must sign up for a free community membership, **and** register for this course, per the instructions below. 
+ModernApps Ninja learning content is free and open to anyone to view, however to take tests and receive certificates of completion for courses, you must sign up for a free community membership, **and** register for this course, per the instructions below.
 
 ### Join the ModernApps Ninja Community!
 
-In addition to unlocking the ability to take tests and recieve course completion certificates, joining the ModernApps Ninja Community has a number of other benefits, and is a completely free program. 
+In addition to unlocking the ability to take tests and recieve course completion certificates, joining the ModernApps Ninja Community has a number of other benefits, and is a completely free program.
 
 [Please click here to learn more about member benefits and to join the community!](https://modernapps.ninja/about/membership)
 
@@ -32,9 +32,9 @@ You must first be a member of the community before you can register for this cou
 
 To register for this course, follow the detailed instructions below to post a simple file with your github username to this repository. This process, while simple to follow, helps participants to gain experience and comfort, and validate their knowledge with foundational devops tools and process.
 
-Posting a file to register uses the git pull request process, which is one of the most important and common foundational skills for participating in devops, cloud native, and infrastructure modernization initiatives. 
+Posting a file to register uses the git pull request process, which is one of the most important and common foundational skills for participating in devops, cloud native, and infrastructure modernization initiatives.
 
-This process will also show on your public github profile that you have made a commit, the course also provides several additional exercises throughout where you will make commits to gain additional git experience while enhancing your github and professional profiles. 
+This process will also show on your public github profile that you have made a commit, the course also provides several additional exercises throughout where you will make commits to gain additional git experience while enhancing your github and professional profiles.
 
 #### Step 1 - Open the new course registration document link
 
@@ -42,9 +42,9 @@ This process will also show on your public github profile that you have made a c
 
 The following link will direct your browser to a github web-based document editor that is used to submit new files or updates to this github repository. You will need to type in a few values and then submit the document as detailed in the following steps.
 
-Please right click the following link and select the option to open it in a new browser tab, so you can keep this instruction page open in the current tab to guide you through the process. 
+Please right click the following link and select the option to open it in a new browser tab, so you can keep this instruction page open in the current tab to guide you through the process.
 
-[Right Click Here and select the option to open link in new tab](https://github.com/ModernAppsNinja/vSphereTanzu301_vt4163/tree/main/static/admin/userdata/registered_members) and click on `Add File > Create new file`
+[Right Click Here and select the option to open link in new tab](https://github.com/ModernAppsNinja/modernappsskills101_ms4043/tree/main/static/admin/userdata/registered_members) and click on `Add File > Create new file`
 
 #### Step 2 - Name your .yml file
 
@@ -83,6 +83,6 @@ After you click `Create pull request`, an automated GitHub Action worklow will i
   - trigger github to send an email from github to the email address for the github user account that submitted the pull request including the message from the previous step
   - approve and merge the new document you submitted into the registered members directory for this course
 
-This completes the course registration process, once you have completed the above steps, you can proceed through the course and participate in any steps such as tests and completion certificates that require course registration. 
+This completes the course registration process, once you have completed the above steps, you can proceed through the course and participate in any steps such as tests and completion certificates that require course registration.
 
 Thank you!
