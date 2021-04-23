@@ -12,7 +12,7 @@ weight: 1013
     - [Step 2 - Name your .yml file](#step-2---name-your-file)
     - [Step 3 - Add a line to your .yml file](#step-3---add-a-line-to-your-file)
     - [Step 4 - Submit your .yml registration document](#step-4---submit-your-registration-document)
-
+ 
 
 {{< youtube Ad4ObhsOaJk >}}
 
