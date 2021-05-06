@@ -5,7 +5,7 @@
 &lt;/div>
 &lt;p>To request your certificate of completion:&lt;/p>
 &lt;ol>
-&lt;li>In a seperate browser tab navigate to: &lt;a href="https://github.com/ModernAppsNinja/vSphereTanzu301_vt4163/tree/main/static/admin/userdata/certs_awarded">https://github.com/ModernAppsNinja/vSphereTanzu301_vt4163/tree/main/static/admin/userdata/certs_awarded&lt;/a>&lt;/li>
+&lt;li>In a seperate browser tab navigate to: &lt;a href="https://github.com/ModernAppsNinja/modernappsskills101_ms4043/tree/main/static/admin/userdata/certs_awarded">https://github.com/ModernAppsNinja/modernappsskills101_ms4043/tree/main/static/admin/userdata/certs_awarded&lt;/a>&lt;/li>
 &lt;li>Click on the &lt;code>Add file&lt;/code> button to add a new file&lt;/li>
 &lt;li>Name the file using your own github username in the format &lt;code>yourgithubusername.yml&lt;/code>&lt;/li>
 &lt;li>In the body of the file type: &lt;code>Status: Completed&lt;/code>&lt;/li>
