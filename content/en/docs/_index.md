@@ -1,12 +1,15 @@
 ---
-title: "ModernApps Ninja Skills 101"
-linkTitle: "ModernApps Ninja Skills 101"
+title: "ModernApps Skills 101"
+linkTitle: "ModernApps Skills 101"
 weight: 20
 menu:
   main:
     weight: 20
 ---
-  <!-- This commented section contains old text from the original template kept here as a reference
+**Please Note:** There is currently a problem with the automated features in this course so the enrollment, test taking, and certificate of completion functions are not currently available. We are working on this issue now and expect to have the course fully functional shortly. All of the course content is still available and viewable, so please continue accessing the materials as needed. When the issue is fixed a notification will be posted to the members Github teams discussion board and this notification will be removed from this page. 
+
+Thanks for your patience!
+<!-- This commented section contains old text from the original template kept here as a reference
 
   {{% pageinfo %}} This is a placeholder page that shows you how to use this template site. {{% /pageinfo %}}
 
