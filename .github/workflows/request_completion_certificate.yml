@@ -319,43 +319,43 @@ jobs:
           -o /tmp/member_record.yml
           cat /tmp/member_record.yml
       # COURSE DEVELOPERS: This section awards digital badges. Do not uncomment this section until you have created the digital badge for this course and have the badge ID values available
-      # - name: make assertion to award digital badge to recipient
-      #   if: env.passing_grade == 'true'
-      #   run: |
-      #     preferredemailaddress=$(yq e '.preferredEmailAddress' /tmp/member_record.yml)
-      #     badgeclass_entity_id=
-      #     reponame=${{ github.event.repository.name }}
-      #     lorepo=$(echo ${reponame,,})
-      #     echo "lorepo is: ${lorepo}"
-      #     badgrtoken=$(curl -X POST "https://api.badgr.io/o/token" -d "username=${{ secrets.BADGREMAIL }}&password=${{ secrets.BADGRPASSWORD }}" | jq -r '.access_token')
-      #     echo "badgrtoken is: ${badgrtoken}"
-      #     curl -X POST \
-      #     "https://api.badgr.io/v2/badgeclasses/${badgeclass_entity_id}/assertions" \
-      #     --header "Content-Type: application/json" \
-      #     --header "Authorization: Bearer ${badgrtoken}" \
-      #     --data-raw '{
-      #       "recipient": {
-      #         "identity": "'$(yq e '.preferredEmailAddress' /tmp/member_record.yml)'",
-      #         "type": "email",
-      #         "hashed": true
-      #       },
-      #       "evidence": [
-      #         {
-      #           "url": "https://modernappsninjas.github.io/${{ github.event.sender.login }}/cert/'${lorepo}'/"
-      #         }
-      #       ],
-      #       "notify": true
-      #     }' >> /tmp/assert_call_response.json
-      #     cat /tmp/assert_call_response.json
-      # - name: review variables from assertion response
-      #   if: env.passing_grade == 'true'
-      #   run: |
-      #     echo "status.success is : $(jq -r '.status.success' /tmp/assert_call_response.json)"
-      #     jq -r '.status.success' /tmp/assert_call_response.json > /tmp/assert_success
-      #     echo "result.entityId is : $(jq -r '.result[0].entityId' /tmp/assert_call_response.json)"
-      #     jq -r '.result[0].entityId' /tmp/assert_call_response.json > /tmp/badge_entityId
-      #     echo "result.openBadgeId is : $(jq -r '.result[0].openBadgeId' /tmp/assert_call_response.json)"
-      #     jq -r '.result[0].openBadgeId' /tmp/assert_call_response.json > /tmp/badge_openBadgeId
+      - name: make assertion to award digital badge to recipient
+        if: env.passing_grade == 'true'
+        run: |
+          preferredemailaddress=$(yq e '.preferredEmailAddress' /tmp/member_record.yml)
+          badgeclass_entity_id=U2jUzma3Tq-OKHrpt6whUw
+          reponame=${{ github.event.repository.name }}
+          lorepo=$(echo ${reponame,,})
+          echo "lorepo is: ${lorepo}"
+          badgrtoken=$(curl -X POST "https://api.badgr.io/o/token" -d "username=${{ secrets.BADGREMAIL }}&password=${{ secrets.BADGRPASSWORD }}" | jq -r '.access_token')
+          echo "badgrtoken is: ${badgrtoken}"
+          curl -X POST \
+          "https://api.badgr.io/v2/badgeclasses/${badgeclass_entity_id}/assertions" \
+          --header "Content-Type: application/json" \
+          --header "Authorization: Bearer ${badgrtoken}" \
+          --data-raw '{
+            "recipient": {
+              "identity": "'$(yq e '.preferredEmailAddress' /tmp/member_record.yml)'",
+              "type": "email",
+              "hashed": true
+            },
+            "evidence": [
+              {
+                "url": "https://modernappsninjas.github.io/${{ github.event.sender.login }}/cert/'${lorepo}'/"
+              }
+            ],
+            "notify": true
+          }' >> /tmp/assert_call_response.json
+          cat /tmp/assert_call_response.json
+      - name: review variables from assertion response
+        if: env.passing_grade == 'true'
+        run: |
+          echo "status.success is : $(jq -r '.status.success' /tmp/assert_call_response.json)"
+          jq -r '.status.success' /tmp/assert_call_response.json > /tmp/assert_success
+          echo "result.entityId is : $(jq -r '.result[0].entityId' /tmp/assert_call_response.json)"
+          jq -r '.result[0].entityId' /tmp/assert_call_response.json > /tmp/badge_entityId
+          echo "result.openBadgeId is : $(jq -r '.result[0].openBadgeId' /tmp/assert_call_response.json)"
+          jq -r '.result[0].openBadgeId' /tmp/assert_call_response.json > /tmp/badge_openBadgeId
       - name: prepare grade report
         run: |
           echo "---  " > /tmp/grade_report.pr${{ github.event.number }}.${{ github.event.repository.name }}.md
