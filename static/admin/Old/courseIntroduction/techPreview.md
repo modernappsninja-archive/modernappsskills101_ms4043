@@ -2,7 +2,7 @@
 title: "Tech Preview"
 date: 2020-10-12T18:34:25-07:00
 weight: 1005
-
+draft: true
 ---
 
 **Please Note: This course is currently in technical preview** for
