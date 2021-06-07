@@ -1,73 +1,132 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ModernApps Skills 101 – ModernApps Skills 101</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/</link><description>Recent content on ModernApps Skills 101</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://modernappsninja.github.io/modernappsskills101_ms4043/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Tech Preview</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/techpreview/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/techpreview/</guid><description>
-&lt;p>&lt;strong>Please Note: This course is currently in technical preview&lt;/strong> for
-additional review and feedback before the course is generally available.
-The purpose of the preview is to validate all information in the course
-and to receive input on additions on improvements we can make before GA.&lt;/p>
-&lt;p>Accordingly, please be aware that any technical details in the course
-are still under review and may not be fully accurate.&lt;/p>
-&lt;p>&lt;strong>Your feedback is extremely important!&lt;/strong> We really need your feedback
-to make this course the best experience we can. Any and all suggestions
-are appreciated from small grammar improvements to bigger additions.
-Please describe your suggestions with as much detail as possible. If you
-would like to discuss directly with the course development team we would
-appreciate it!&lt;/p>
-&lt;p>On each page on this course, on the right nav bar you can see a link to open an issue ticket to provide feedback and suggestions. Thank you!&lt;/p></description></item><item><title>Docs: Welcome to the Course</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/welcometothecourse/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/welcometothecourse/</guid><description>
-&lt;p>Welcome to the ModernApps Ninja 101 Skills Course!&lt;/p>
-&lt;p>This course provides an introduction to the ModernApps Ninja learning community. The ModernApps Ninja program is much more than just the learning portal and is really intended to be an active community of professionals learning and working towards applying new skills in cloud native technologies. In this course you will learn about the past and future vision for the community, and about the different sites and assets available to the community, including the ModernApps Ninja github org, slack channel and google group.&lt;/p>
-&lt;p>If you complete all steps in this course, you can request a certificate
-of completion, by following the instructions provided at the end of the
-course. &lt;/p>
-&lt;p>This course is a community effort, to be able to keep up the material,
-we really need your help to report issues, suggest improvements, or help
-with the many volunteer opportunities available to support the
-community.&lt;/p>
-&lt;p>Thank you for investing your time!&lt;/p></description></item><item><title>Docs: Community Membership and Course Registration</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/membershipregistration/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/membershipregistration/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ModernApps Skills 101 – ModernApps Skills 101</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/</link><description>Recent content on ModernApps Skills 101</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://modernappsninja.github.io/modernappsskills101_ms4043/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Course Introduction</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/</guid><description>
 &lt;ul>
-&lt;li>&lt;a href="#requirements-for-tests-and-course-completion-certificates">Requirements for tests and course completion certificates&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#join-the-modernapps-ninja-community">Join the ModernApps Ninja Community!&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#register-for-this-course">Register for this course&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#step-1---open-the-new-course-registration-document-link">Step 1 - Open the new course registration document link&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#step-2---name-your-file">Step 2 - Name your .yml file&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#step-3---add-a-line-to-your-file">Step 3 - Add a line to your .yml file&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#step-4---submit-your-registration-document">Step 4 - Submit your .yml registration document&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#about-this-course">About this Course&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#prerequisites">Prerequisites&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#course-input--feedback">Course Input &amp;amp; Feedback&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#content-accuracy-and-refresh-cycle">Content Accuracy and Refresh Cycle&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#thank-you-for-participating">Thank you for participating!&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
+&lt;h2 id="about-this-course">About this Course&lt;/h2>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/Ad4ObhsOaJk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;iframe src="https://www.youtube.com/embed/5ScnewvBayk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
-&lt;h2 id="requirements-for-tests-and-course-completion-certificates">Requirements for tests and course completion certificates&lt;/h2>
-&lt;p>ModernApps Ninja learning content is free and open to anyone to view, however to take tests and receive certificates of completion for courses, you must sign up for a free community membership, &lt;strong>and&lt;/strong> register for this course, per the instructions below.&lt;/p>
-&lt;h3 id="join-the-modernapps-ninja-community">Join the ModernApps Ninja Community!&lt;/h3>
-&lt;p>In addition to unlocking the ability to take tests and recieve course completion certificates, joining the ModernApps Ninja Community has a number of other benefits, and is a completely free program.&lt;/p>
-&lt;p>&lt;a href="https://modernapps.ninja/about/membership">Please click here to learn more about member benefits and to join the community!&lt;/a>&lt;/p>
-&lt;h3 id="register-for-this-course">Register for this course&lt;/h3>
-&lt;p>You must first be a member of the community before you can register for this course. Ensure that you have fully completed the community member registration process before proceeding.&lt;/p>
-&lt;p>To register for this course, follow the detailed instructions below to post a simple file with your github username to this repository. This process, while simple to follow, helps participants to gain experience and comfort, and validate their knowledge with foundational devops tools and process.&lt;/p>
-&lt;p>Posting a file to register uses the git pull request process, which is one of the most important and common foundational skills for participating in devops, cloud native, and infrastructure modernization initiatives.&lt;/p>
+&lt;p>This course provides an introduction to the ModernApps Learning community. The community is much more than just content and is really intended to be an active community of professionals learning and working towards applying new skills in cloud native technologies.&lt;/p>
+&lt;p>The ModernApps Learning community uses devops tools to deliver all the features provided by the platform to participate in courses, collaboration and other community assets. When you register with the community you fill out an issue ticket. To enroll in a course you will post a new file to the course repository. When you take a test you will modify an existing file in the repository. While registration, enrollment and testing are normal features of Learning Management Systems (LMS), the ModernApps Learning Platform is not an LMS, it is a devops system where each of these features is implemented as a CI/CD workflow using GitHub Actions. This means participating in a course is just like working on a devops project; you will use GitHub messaging to collaborate with peers and open pull requests to edit or post files to a repository to participate in each course.&lt;/p>
+&lt;p>By the time you have taken your first course, you will have learned these core skills which represent the most common and important skills to begin participating and contributing to a modern devops and/or open source projects.&lt;/p>
+&lt;p>While participating in a course gets you started on foundational devops skills, the ModernApps Learning Platform provides a unique opportunity for members to learn and practice devops skills in a real production context. Every aspect of the ModernApps Learning Program is managed openly in conjunction with the community. Our vision, goals, roadmap, planning, code, infrastructure etcetera are all managed by and for the community, which is designed with guidelines and guardrails to help participants learn by doing in a step-by-step guided path towards increasing production-grade experience.&lt;/p>
+&lt;p>In this course you will learn the foundational skills to participate in ModernApps Learning courses at the 100 level, including how to register with the community, use community collaboration tools, participate in events, enroll in courses, take tests, and request course completion badges.&lt;/p>
+&lt;p>If you complete all steps in this course, you can request a certificate of completion by following the instructions provided at the end of the course.&lt;/p>
+&lt;p>This course is a community effort, to be able to keep up the material, we really need your help to report issues, suggest improvements, or help with the many volunteer opportunities available to support the community.&lt;/p>
+&lt;h2 id="prerequisites">Prerequisites&lt;/h2>
+&lt;p>This course has no prerequisites.&lt;/p>
+&lt;h2 id="course-input--feedback">Course Input &amp;amp; Feedback&lt;/h2>
+&lt;p>Your feedback for this course is critical to help ensure we can improve course content and quality and is greatly appreciated!&lt;/p>
+&lt;p>If you see any problems or suggestions for improvement in this course, the community is very grateful for your help. The simplest way to provide your input is to click the Edit this page link on the right nav bar on each page on this site, and it will open a page to a simple web text editor where you can easily make any update or suggested input you have and then click a button to submit your update. If the course administrators approve your update, the commit and each line you update will be shown on your public Github profile and add value to your professional portfolio, and you will be listed as a contributor to the site.&lt;/p>
+&lt;p>If you would prefer to provide feedback through a feedback form, all feedback is crucial to helping the community provide the best content we can. To submit feedback, general questions or support requests, please click the “Open Issue Ticket” link found on the right navigation bar on each page of this course site.&lt;/p>
+&lt;p>The community thanks you for your feedback and contributions!&lt;/p>
+&lt;h2 id="content-accuracy-and-refresh-cycle">Content Accuracy and Refresh Cycle&lt;/h2>
+&lt;p>We make a strong effort to keep the content in this course as current as possible, however the Tanzu Portfolio is rapidly growing and there may be times where this course may not include the newest updates. Always refer to the official VMware Tanzu Portfiolio Website and your VMware account team for the latest details on products covered in this course.&lt;/p>
+&lt;p>As part of our effort to keep this course as up-to-date as possible, this course is on a continuous update lifecycle. This means that the course can be updated at any time, and new content and requirements may be added while you are taking your course. We will make effort to notify members in advance of any significant updates are made to minimize any unexpected changes to course completion requirements.&lt;/p>
+&lt;h2 id="thank-you-for-participating">Thank you for participating!&lt;/h2></description></item><item><title>Docs: Content Overview</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/contentoverview/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/contentoverview/</guid><description>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/k5WIDlV_FBo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div></description></item><item><title>Docs: Collaboration, Feedback, and Support</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/collaborationfeedbacksupport/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/collaborationfeedbacksupport/</guid><description>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/Aviobz_z7hE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div></description></item><item><title>Docs: Community Membership</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/communitymembership/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/communitymembership/</guid><description>
+&lt;ul>
+&lt;li>&lt;a href="#video-overview">Video Overview&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#about-community-membership">About Community Membership&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#how-to-register">How to Register&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#link-to-membership-registration-form">Link to Membership Registration Form&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="video-overview">Video Overview&lt;/h3>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/CIRecX6M9Go" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h3 id="about-community-membership">About Community Membership&lt;/h3>
+&lt;p>The Free ModernApps Learning Community Membership unlocks access to many key community assets including:&lt;/p>
+&lt;ul>
+&lt;li>Membership in the ModernAppsNinja Github Organization and Members Github Team&lt;/li>
+&lt;li>ModernApps Learning Mailer list emails about community events and key content updates&lt;/li>
+&lt;li>Ability to take course tests and request certificates of completion&lt;/li>
+&lt;li>Member Repository and Github Pages site to display Member Course Records, Completion Certificates and Achievements&lt;/li>
+&lt;li>Access to member discussion boards&lt;/li>
+&lt;li>Access to submit blogs, courses and course contents, access course template and other community resources for contributors&lt;/li>
+&lt;li>Course Enrollment and particpation reflects github commits on Members github profile and listed as contributor on ModernAppsNinja Github Org&lt;/li>
+&lt;li>Access to participatory gitops/devops learning events, hackathons and exercises where members can gain organizational permissions including collaborator and maintainer achievements&lt;/li>
+&lt;/ul>
+&lt;p>Please Note: We are currently making some changes to our backend course hosting, and some courses may require additional registration steps until we complete this transition. If a course requires any additional registration steps, instructions will be provided in the course materials.&lt;/p>
+&lt;h3 id="how-to-register">How to Register&lt;/h3>
+&lt;p>Note: You must have a Github account and be logged in to github to register. Regardless of what values you type into the form, the github account you are logged in as at the time you submit the registration form will be used, so please be sure you are logged in to github with the account you want to register with.&lt;/p>
+&lt;p>We use gitops/devops tools for participatory actions in the program to help ensure participants are comfortable with these important new skills.&lt;/p>
+&lt;p>To register you will fill out a simple form in a github issue ticket. Its important that you fill out the form as instructed, and not modify the form spacing or punctuation as that could interfere with the automated workflows that process your registration.&lt;/p>
+&lt;p>Here is an example registration form:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">preferredEmailAddress: &lt;span style="color:#4e9a06">&amp;#34;&amp;#34;&lt;/span>
+firstName: &lt;span style="color:#4e9a06">&amp;#34;&amp;#34;&lt;/span>
+lastName: &lt;span style="color:#4e9a06">&amp;#34;&amp;#34;&lt;/span>
+twitterUsername: &lt;span style="color:#4e9a06">&amp;#34;&amp;#34;&lt;/span>
+linkedinUsername: &lt;span style="color:#4e9a06">&amp;#34;&amp;#34;&lt;/span>
+isVmwareEmployee: &lt;span style="color:#204a87">false&lt;/span>
+vmwareEmailAddress: &lt;span style="color:#4e9a06">&amp;#34;&amp;#34;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>As you can see in the form above, each field has an empty pair of quotation marks where you can fill in your registration data. For example if your first name is John, you would enter &lt;code>firstName: &amp;quot;John&amp;quot;&lt;/code> only adding your name between the quotation marks, without changing the line in any other way.&lt;/p>
+&lt;p>Please note that First and Last Name fields do not infer which is the family name, it infers the display order. For example if you enter first name as &lt;code>Juan&lt;/code> and your last name as &lt;code>Dew&lt;/code>, your member repository homepage would say &lt;code>Welcome to the ModernApps Learning Member Page for Juan Dew&lt;/code>.&lt;/p>
+&lt;p>You may notice the &lt;code>isVmwareEmployee: false&lt;/code> line does not have quotation marks around the value &lt;code>false&lt;/code> - because it is a boolean value, it does not require quotations. If you are a vmware employee, please change this value to &lt;code>isVmwareEmployee: true&lt;/code>; otherwise leave the value as false and do not change this line.&lt;/p>
+&lt;p>&lt;strong>Required Values:&lt;/strong> &lt;code>preferredEmailAddress&lt;/code>, &lt;code>firstName&lt;/code>, &lt;code>lastName&lt;/code>&lt;/p>
+&lt;p>&lt;strong>Optional Values:&lt;/strong> &lt;code>twitterUsername&lt;/code>, &lt;code>linkedinUsername&lt;/code>, &lt;code>vmwareEmailAddress&lt;/code>&lt;/p>
+&lt;p>Here is an example registration form filled in with fake user values:&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">preferredEmailAddress: &lt;span style="color:#4e9a06">&amp;#34;janedoe@fakeaddress.com&amp;#34;&lt;/span>
+firstName: &lt;span style="color:#4e9a06">&amp;#34;Jane&amp;#34;&lt;/span>
+lastName: &lt;span style="color:#4e9a06">&amp;#34;Doe&amp;#34;&lt;/span>
+twitterUsername: &lt;span style="color:#4e9a06">&amp;#34;janedoe&amp;#34;&lt;/span>
+linkedinUsername: &lt;span style="color:#4e9a06">&amp;#34;janedoe&amp;#34;&lt;/span>
+isVmwareEmployee: &lt;span style="color:#204a87">false&lt;/span>
+vmwareEmailAddress: &lt;span style="color:#4e9a06">&amp;#34;&amp;#34;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>After you have completed filling in the registration form, click the &lt;code>Submit new issue&lt;/code> button and an automated workflow will commence that will trigger github to send an email invitation to join the ModernAppsNinja github org. This email will be sent from github to the email account associated with the registrants' github acount.&lt;/p>
+&lt;p>You must accept the email invitation from GitHub to join the ModernAppsNinja github org.&lt;/p>
+&lt;p>After you accept the Github invitation and join the organization, an automated workflow will commence that will build your member repository and github pages site. Once your site is ready, the workflow will post a message with the details of your new site on github mentioning you, which will trigger github to send you a notification to the email address associated with your github account. Your new member page will initially be blank, however as you register for courses and earn achievements, they will be posted to your member page.&lt;/p>
+&lt;p>Please note that we are currently transitioning courses to a new backend system and some courses are still on the old system. Course records from the old system may not be immediately reflected on the member page, but we will ensure that all records from our previous system get transferred and reflected on your member page soon.&lt;/p>
+&lt;h3 id="link-to-membership-registration-form">Link to Membership Registration Form&lt;/h3>
+&lt;p>Before submitting your registration please note that ModernApps Learning is hosted on public Github Repositories, and the records of processing this information can be publicly accessed. All records of participation are reflected on our public github sites and repositories and may be visible to other members or the general public. Participation in ModernApps Learning does not require you to submit confidential information, and asks that you do not submit any information you desire to be kept secret, as all information and particiapation data on this site should be considered public information.&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://github.com/ModernAppsNinja/modernappsninja.github.io/issues/new?assignees=modernappsninjabot&amp;amp;labels=newuserregistration&amp;amp;template=joinrequest.md&amp;amp;title=Request+to+Join+ModernApps+Ninja+Github+Org">Please click here to access the Membership Registration Form&lt;/a>&lt;/strong>&lt;/p>
+&lt;hr></description></item><item><title>Docs: Course Enrollment</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseenrollment/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseenrollment/</guid><description>
+&lt;ul>
+&lt;li>&lt;a href="#video-overview">Video Overview&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#enroll-for-this-course">Enroll for this course&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#step-1---open-the-new-course-enrollment-document-link">Step 1 - Open the new course enrollment document link&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#step-2---name-your-file">Step 2 - Name your file&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#step-3---add-a-line-to-your-file">Step 3 - Add a line to your file&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#step-4---submit-your-enrollment-document">Step 4 - Submit your enrollment document&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="video-overview">Video Overview&lt;/h3>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/ZwomDsloyHg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;h3 id="enroll-for-this-course">Enroll for this course&lt;/h3>
+&lt;p>You must first be a member of the community before you can enroll for this course. Ensure that you have fully completed the community member enrollment process before proceeding.&lt;/p>
+&lt;p>To enroll for this course, follow the detailed instructions below to post a simple file with your github username to this repository. This process, while simple to follow, helps participants to gain experience and comfort, and validate their knowledge with foundational devops tools and process.&lt;/p>
+&lt;p>Posting a file to enroll uses the git pull request process, which is one of the most important and common foundational skills for participating in devops, cloud native, and infrastructure modernization initiatives.&lt;/p>
 &lt;p>This process will also show on your public github profile that you have made a commit, the course also provides several additional exercises throughout where you will make commits to gain additional git experience while enhancing your github and professional profiles.&lt;/p>
-&lt;h4 id="step-1---open-the-new-course-registration-document-link">Step 1 - Open the new course registration document link&lt;/h4>
-&lt;p>&lt;strong>The Course Registration Process Requires that you have a github account, and that you are signed in using the github account you want to be registered for the course. If you attempt to register a different account than the account you are signed in as, the process will fail.&lt;/strong>&lt;/p>
-&lt;p>The following link will direct your browser to a github web-based document editor that is used to submit new files or updates to this github repository. You will need to type in a few values and then submit the document as detailed in the following steps.&lt;/p>
+&lt;h4 id="step-1---open-the-new-course-enrollment-document-link">Step 1 - Open the new course enrollment document link&lt;/h4>
+&lt;p>&lt;strong>The Course Enrollment Process Requires that you have a github account, and that you are signed in using the github account you want to be enrolled for the course. If you attempt to enroll a different account than the account you are signed in as, the process will fail.&lt;/strong>&lt;/p>
 &lt;p>Please right click the following link and select the option to open it in a new browser tab, so you can keep this instruction page open in the current tab to guide you through the process.&lt;/p>
 &lt;p>&lt;a href="https://github.com/ModernAppsNinja/modernappsskills101_ms4043/tree/main/static/admin/userdata/registered_members">Right Click Here and select the option to open link in new tab&lt;/a> and click on &lt;code>Add File &amp;gt; Create new file&lt;/code>&lt;/p>
-&lt;h4 id="step-2---name-your-yml-file">Step 2 - Name your .yml file&lt;/h4>
+&lt;h4 id="step-2---name-your-file">Step 2 - Name your file&lt;/h4>
 &lt;p>Note the page displays a message that &lt;code>You’re making changes in a project you don’t have write access to. Submitting a change will write it to a new branch in your fork YOUR_GITHUB_USERNAME/COURSE_REPOSITORY_NAME, so you can send a pull request.&lt;/code>&lt;/p>
 &lt;p>The pull request process works by submitting a copy of your new or updated file to the repository, which will only be applied to the course repository if a course administrator approves the request. Because you do not have write access to the repository, github will create a special copy called a &lt;code>fork&lt;/code> of the course repository within your github account with your new or updated files, and use your copy to save the updates you&amp;rsquo;re submitting to the official course repository as shown in the following steps.&lt;/p>
-&lt;p>In your browser tab to the new registration document, above the document editor in the file name field, type in the name of the file in the format &lt;code>your_github_username.yml&lt;/code>, replacing the value &lt;strong>your_github_username&lt;/strong> with the username for your github account. And don&amp;rsquo;t forget the &lt;strong>.yml&lt;/strong> extension.&lt;/p>
+&lt;p>In your browser tab to the new enrollment document, above the document editor in the file name field, type in the name of the file in the format &lt;code>your_github_username.yml&lt;/code>, replacing the value &lt;strong>your_github_username&lt;/strong> with the username for your github account.&lt;/p>
 &lt;p>The following screenshot shows an example of this step using the github username &lt;code>Oni-no-Hanzo&lt;/code>&lt;/p>
 &lt;p>&lt;strong>Note:&lt;/strong> If needed, you can verify your github username by clicking on your github profile menu, which can be found on the upper right hand corner on any github page if you are signed in.&lt;/p>
 &lt;p>&lt;img src="https://modernapps.ninja/course_repo_template_ct8279/admin/assets/images/course_registration_file_naming.png" alt="Screenshot of File Naming">&lt;/p>
-&lt;h4 id="step-3---add-a-line-to-your-yml-file">Step 3 - Add a line to your .yml file&lt;/h4>
+&lt;h4 id="step-3---add-a-line-to-your-file">Step 3 - Add a line to your file&lt;/h4>
 &lt;p>On line 1 in the document editor, type &lt;code>status: in-progress&lt;/code> as shown in the following screenshot:&lt;/p>
 &lt;p>&lt;img src="https://modernapps.ninja/course_repo_template_ct8279/admin/assets/images/course_registration_file_editing.png" alt="Screenshot of File Editing">&lt;/p>
-&lt;h4 id="step-4---submit-your-yml-registration-document">Step 4 - Submit your .yml registration document&lt;/h4>
-&lt;p>Scroll to the bottom of the registration document page and click &lt;code>Propose New File&lt;/code> as shown in the following image:&lt;/p>
-&lt;p>&lt;img src="https://github.com/ModernAppsNinja/course_repo_template_ct8279/new/main/static/admin/userdata/registered_members" alt="Propose New File Screenshot">&lt;/p>
+&lt;h4 id="step-4---submit-your-enrollment-document">Step 4 - Submit your enrollment document&lt;/h4>
+&lt;p>Scroll to the bottom of the enrollment document page and click &lt;code>Propose New File&lt;/code> as shown in the following image:&lt;/p>
+&lt;p>&lt;img src="https://github.com/ModernAppsNinja/course_repo_template_ct8279/blob/main/static/admin/assets/images/propose_changes.png" alt="Propose New File Screenshot">&lt;/p>
 &lt;p>After you click &lt;code>Propose New File&lt;/code>, your browser will be redirected to the &lt;code>Comparing Changes&lt;/code> page with all the configuration all setup so all you sould need to do is click &lt;code>Create Pull Request&lt;/code> &amp;mdash; but before you click, please review the other details shown on the comparing changes and observe that the file you created and the lines added are shown, so you can easily review and verify your proposed changes before submitting.&lt;/p>
 &lt;p>After you click &lt;code>Create pull request&lt;/code>, an automated GitHub Action worklow will initiate that will do the following actions:&lt;/p>
 &lt;ul>
@@ -82,84 +141,25 @@ community.&lt;/p>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;p>This completes the course registration process, once you have completed the above steps, you can proceed through the course and participate in any steps such as tests and completion certificates that require course registration.&lt;/p>
-&lt;p>Thank you!&lt;/p></description></item><item><title>Docs: Target Audience</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/targetaudience/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/targetaudience/</guid><description>
-&lt;p>This course is designed for Information Technology Students and Professionals interested in learning more about the ModernApps Community.&lt;/p>
-&lt;p>Please complete the course prerequisites and review the lab completion
-difficulty to ensure you are fully prepared to succeed in this course.&lt;/p></description></item><item><title>Docs: Prerequisites</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/prerequisites/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/prerequisites/</guid><description>
-&lt;p>This course has no specific prerequisites, however we recommend that participants have familiarity with enterprise information technology infrastructure and operations administration.&lt;/p></description></item><item><title>Docs: Course Updates and Freshness</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/courseupdatesandfreshness/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/courseupdatesandfreshness/</guid><description>
-&lt;p>We make a strong effort to keep the content in this course as current as
-possible, however the Tanzu Portfolio is rapidly growing and there may
-be times where this course may not include the newest updates. Always
-please refer to the official &lt;a href="https://tanzu.vmware.com/tanzu">VMware Tanzu Portfiolio
-Website&lt;/a> and your VMware account team
-for the latest details on products covered in this course. &lt;/p>
-&lt;p>As part of our effort to keep this course as up-to-date as possible,
-this course is on a continuous update lifecycle. This means that the
-course can be updated at any time, and new content and requirements may
-be added while you are taking your course. We will make effort to notify
-students in advance of any significant updates are made to minimize any
-changes to course completion requirements. &lt;/p></description></item><item><title>Docs: Welcome to the Community</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/welcometotheninjacommunity/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/welcometotheninjacommunity/</guid><description>
-&lt;p>Please watch the video below to learn more about the ModernApps Ninja Community!
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/GlVSmFtIs1s" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
-&lt;/div>
-&lt;/p></description></item><item><title>Docs: Course Input &amp; Feedback</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/coursefeedback/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/courseintroduction/coursefeedback/</guid><description>
-&lt;p>Your feedback for this course is critical to help ensure we can improve
-course content and quality and is greatly appreciated!&lt;/p>
-&lt;p>If you see any problems or suggestions for improvement in this course, the community is very grateful for your help. The simplest way to provide your input is to click the &lt;code>Edit this page&lt;/code> link on the right nav bar on each page on this site, and it will open a page to a simple web text editor where you can easily make any update or suggested input you have and then click a button to submit your update. If the course administrators approve your update, the commit and each line you update will be shown on your public Github profile and add value to your professional portfolio, and you will be listed as a contributor to the site.&lt;/p>
-&lt;p>If you would prefer to provide feedback through a feedback form, all feedback is crucial to helping the community provide the best content we can. If you have feedback you would rather provide through a form, please click the &amp;ldquo;Open Issue Ticket&amp;rdquo; link found on the right navigation bar on each page of this course site.&lt;/p>
-&lt;p>The community thanks you for your feedback and contributions!&lt;/p></description></item><item><title>Docs: Intro to the ModernApps Ninja Community</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/modernappsskills101/introtomodernappscommunity/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/modernappsskills101/introtomodernappscommunity/</guid><description>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/vFk0KHiodGY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
-&lt;/div></description></item><item><title>Docs: History and Future of the ModernApps Ninja Program</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/modernappsskills101/historyandfuture/</link><pubDate>Mon, 12 Oct 2020 18:40:26 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/modernappsskills101/historyandfuture/</guid><description>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/n4OAYZgufK0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
-&lt;/div></description></item><item><title>Docs: ModernApps Learning GitHub Org</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/modernappsskills101/modernappsgithub/</link><pubDate>Mon, 12 Oct 2020 18:40:02 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/modernappsskills101/modernappsgithub/</guid><description>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/ijbpFe9oNGE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
-&lt;/div></description></item><item><title>Docs: ModernApps Ninja Slack channel</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/modernappsskills101/modernappsslack/</link><pubDate>Mon, 12 Oct 2020 18:35:13 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/modernappsskills101/modernappsslack/</guid><description>
-&lt;p>The ModernApps Ninja Community uses a slack channel for members to ask questions, provide feedback and engage in community discussions. This page will review how to signup and use the #modernappsninja slack channel. Optionally you can view the video at the bottom of this page for a walk-through of the signup process and overview of the slack channel.&lt;/p>
-&lt;p>The #modernappsninja slack channel is hosted on the VMware Code slack domain. Joining is a 2 step process, first you sign up for VMware code, and you will be sent an email allowing you to join the slack domain. Once you have joined the slack domain, you can then search for and join the #modernappsninja channel.&lt;/p>
-&lt;ol>
-&lt;li>Sign Up for VMware code&lt;/li>
-&lt;/ol>
-&lt;p>Go to &lt;a href="https://code.vmware.com/join">https://code.vmware.com/join&lt;/a> and enter your email address. Within a few minutes, you will be sent an email with a link allowing you to join the VMware Code Slack domain.&lt;/p>
-&lt;ol start="2">
-&lt;li>Join the #modernappsninja channel&lt;/li>
-&lt;/ol>
-&lt;p>After you have signed in to the VMware Code Slack domain, Click on the plus + icon next to Channels and select &amp;ldquo;Browse Channels&amp;rdquo;. In the search box type &amp;ldquo;modernappsninja&amp;rdquo; to find the channel.&lt;/p>
-&lt;p>For more detail, you can optionally view the video below for a walk-through of the signup process and overview of the slack channel.&lt;/p>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/3IIUdaLrIEU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
-&lt;/div></description></item><item><title>Docs: ModernApps Learning by VMware Office Hours Zoom</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/modernappsskills101/modernappsofficehours/</link><pubDate>Mon, 12 Oct 2020 18:39:19 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/modernappsskills101/modernappsofficehours/</guid><description>
-&lt;p>The ModernApps Ninja Office Hours call is held every Friday at 7:30am Pacific Time zone. Once you have been added to the google group as covered in the next unit in this course, you will receive an email for any updates or schedule changes for the call.&lt;/p>
-&lt;p>Office hours to review latest updates to ModernApps Ninja program and invite community questions &amp;amp; discussion.&lt;/p></description></item><item><title>Docs: ModernApps Ninja Google Group</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/modernappsskills101/modernappsgooglegroup/</link><pubDate>Mon, 12 Oct 2020 18:40:54 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/modernappsskills101/modernappsgooglegroup/</guid><description>
-&lt;p>The ModernApps Ninja google group serves as the communities primary email distribution list, used primarily to send updates about new courses, learning content and events. Optionally you may view the video at the bottom of this page for a walk through of the signup process and group overview.&lt;/p>
-&lt;p>We regularly add users who have signed up to the &lt;a href="https://modernapps.ninja">https://modernapps.ninja&lt;/a> platform to the google group, however this process is not yet automated and there can sometimes be delays between modernapps ninja registration and being added to the google group.&lt;/p>
-&lt;p>Please check &lt;a href="https://groups.google.com">https://groups.google.com&lt;/a> and check the &amp;ldquo;My Groups&amp;rdquo; section to see if you are already a member of the group. If you are not yet a member of the group, please request to join the group at the link: &lt;a href="https://groups.google.com/forum/#!forum/modernappsninja/join">https://groups.google.com/forum/#!forum/modernappsninja/join&lt;/a>&lt;/p>
-&lt;p>After you request to join the group, your application must be approved before you are able to access the group details. We try to approve joint requests promptly, however it may take up to a few days for us to approve your join request.&lt;/p>
-&lt;p>For more detail, you can optionally view the video below for a walk through of the signup process and group overview.&lt;/p>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/ZB5JaKatLZU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
-&lt;/div></description></item><item><title>Docs: ModernApps Ninja 101 - test 1</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/modernappsskills101/test1/</link><pubDate>Fri, 09 Oct 2020 03:23:55 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/modernappsskills101/test1/</guid><description>
-&lt;p>All Modernapps Ninja learning content is publicly accessible and available openly, however a free membership is required to take tests and recieve a certificate of completion for the course. You must first &lt;a href="https://modernapps.ninja/about/membership/">join the community&lt;/a> and register for this course per the instructions in the course introduction section before attempting to submit a test.&lt;/p>
-&lt;p>Ninja tests use devops tools and processes so the testing system itself provides both experience with and validation of foundational devops skills.&lt;/p>
+&lt;p>This completes the course enrollment process, once you have completed the above steps, you can proceed through the course and participate in any steps such as tests and completion certificates that require course enrollment.&lt;/p>
+&lt;p>Thank you!&lt;/p></description></item><item><title>Docs: Taking Tests</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/takingtests/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/takingtests/</guid><description>
+&lt;p>All Modernapps Learning content is publicly accessible and available openly, however a free membership is required to take tests and recieve a certificate of completion for the course. You must first &lt;a href="https://modernapps.ninja/about/membership/">join the community&lt;/a> and register for this course per the instructions in the course introduction section before attempting to submit a test.&lt;/p>
+&lt;p>ModernApps Learning tests use devops tools and processes so the testing system itself provides both experience with and validation of foundational devops skills.&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="#instructions">Instructions&lt;/a>
 &lt;ul>
-&lt;li>&lt;a href="#full-test-instructions">Full Test Instructions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#additional-test-instruction-reference">Additional Test Instruction Reference&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#test-answer-response-sheet">Test Answer Response Sheet&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#section-2-test-questions">Section 2 Test Questions&lt;/a>
+&lt;li>&lt;a href="#test-1-questions">Test 1 Questions&lt;/a>
 &lt;ul>
-&lt;li>&lt;a href="#this-concludes-the-section-2-test-please-use-the-navigation-bar-to-proceed-to-the-next-page">This concludes the section 2 test. Please use the navigation bar to proceed to the next page.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#this-concludes-test-1-please-use-the-navigation-bar-to-proceed-to-the-next-page">This concludes Test 1. Please use the navigation bar to proceed to the next page.&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/J_nV5YPypqs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;iframe src="https://www.youtube.com/embed/MmZ459hoq3k" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
 &lt;h2 id="instructions">Instructions&lt;/h2>
 &lt;p>This test uses automated grading, you must follow the instructions exactly to ensure automated grading will complete successfully.&lt;/p>
@@ -167,29 +167,43 @@ course content and quality and is greatly appreciated!&lt;/p>
 &lt;p>Every question in this test is titled &amp;ldquo;Question&amp;rdquo; followed by its order, for example Question1, Question2 etc&amp;hellip;&lt;/p>
 &lt;p>All questions will provide a list of possible answers. Each possible answer is represented by a lowercase letter, the first response is option &amp;ldquo;a&amp;rdquo;, the second is option &amp;ldquo;b&amp;rdquo; and so on, as shown in the example questions below.&lt;/p>
 &lt;p>The Answer sheet will open in Github&amp;rsquo;s web-based editor, similar to the image shown below:&lt;/p>
-&lt;p>&lt;img src="https://modernappsninja.github.io/modernappsskills101_ms4043/vspheretanzu101_vt7301/admin/assets/images/blank_test_screen_example.png" alt="Example Test Response Sheet">&lt;/p>
+&lt;p>&lt;img src="https://modernapps.ninja/vspheretanzu101_vt7301/admin/assets/images/blank_test_screen_example.png" alt="Example Test Response Sheet">&lt;/p>
 &lt;p>After you fill in your answer sheet, you will submit your responses as a git &lt;a href="https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests">pull request&lt;/a> following the instructions provided below, which will trigger a workflow that will grade your responses and provide your test grading sheet.&lt;/p>
-&lt;h3 id="full-test-instructions">Full Test Instructions&lt;/h3>
-&lt;p>If this is the first test you have taken, or if you have an questions at all about how to propely complete the test answer sheet or the test grading service, please review the full &lt;a href="https://modernapps.ninja/course_repo_template_ct8279/docs/reference/testinstructions/">How to Take a Test Instructions&lt;/a>.&lt;/p>
+&lt;h3 id="additional-test-instruction-reference">Additional Test Instruction Reference&lt;/h3>
+&lt;p>If you would like to see additional examples or more thorough instructions, please see &lt;a href="https://modernapps.ninja/course_repo_template_ct8279/docs/reference/testinstructions/">How to Take a Test Instructions&lt;/a>.&lt;/p>
 &lt;p>It is important that you follow the instructions carefully to ensure the automated grading process completes successfully.&lt;/p>
 &lt;h3 id="test-answer-response-sheet">Test Answer Response Sheet&lt;/h3>
 &lt;p>Please right click the following link to the test answer response sheet and select to open it in a new tab. The questions for this test will be provided below in this page, but you will need to enter your responses in the answer response sheet.&lt;/p>
 &lt;p>&lt;a href="https://github.com/modernappsninja/modernappsskills101_ms4043/edit/main/static/admin/userdata/tests/test1.yml">test1 Answer Response Sheet&lt;/a>&lt;/p>
-&lt;h3 id="test-questions">Test Questions&lt;/h3>
-&lt;h4 id="question1-did-you-watch-all-the-videos-provided-in-this-course----omit-in-toc---">&lt;strong>Question1:&lt;/strong> Did you watch all the videos provided in this course &lt;!-- omit in toc -->&lt;/h4>
-&lt;p>&lt;strong>Please select the best response:&lt;/strong>&lt;/p>
+&lt;h3 id="test-1-questions">Test 1 Questions&lt;/h3>
+&lt;h4 id="question1-did-you-register-with-the-modernapps-learning-community----omit-in-toc---">&lt;strong>Question1:&lt;/strong> Did you register with the ModernApps Learning Community? &lt;!-- omit in toc -->&lt;/h4>
+&lt;p>&lt;strong>Please enter &lt;code>a&lt;/code> for yes and &lt;code>b&lt;/code> for no&lt;/strong>&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml">&lt;span style="color:#204a87;font-weight:bold">Answers&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
-&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#204a87;font-weight:bold">a&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#204a87;font-weight:bold">yes&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
-&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#204a87;font-weight:bold">b&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#204a87;font-weight:bold">no&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
-&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="question2-did-you-sign-up-for-the-modernapps-ninja-slack-channel-and-google-group-----omit-in-toc---">&lt;strong>Question2:&lt;/strong> Did you sign up for the ModernApps Ninja Slack channel and Google Group? &lt;!-- omit in toc -->&lt;/h4>
+&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#204a87;font-weight:bold">a&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#204a87;font-weight:bold">Yes&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
+&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#204a87;font-weight:bold">b&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#204a87;font-weight:bold">No&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
+&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="question2-did-you-enroll-in-this-course----omit-in-toc---">&lt;strong>Question2:&lt;/strong> Did you enroll in this course? &lt;!-- omit in toc -->&lt;/h4>
 &lt;p>&lt;strong>Please select the best response:&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml">&lt;span style="color:#000">Answers:ech&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
+&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#204a87;font-weight:bold">a&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#204a87;font-weight:bold">No&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
+&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#204a87;font-weight:bold">b&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#000">Tomato&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
+&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#204a87;font-weight:bold">c&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#204a87;font-weight:bold">Yes&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
+&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#204a87;font-weight:bold">d&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#000">Maybe&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
+&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="question3-which-of-the-following-are-fruits---omit-in-toc---">&lt;strong>Question3:&lt;/strong> Which of the following are fruits?&lt;!-- omit in toc -->&lt;/h4>
+&lt;p>&lt;strong>Select the best 3 responses:&lt;/strong>&lt;/p>
 &lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml">&lt;span style="color:#204a87;font-weight:bold">Answers&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
-&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#204a87;font-weight:bold">a&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#204a87;font-weight:bold">yes&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
-&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#204a87;font-weight:bold">b&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#204a87;font-weight:bold">no&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
-&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Course Completion Certificate</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/closingsummary/completioncertificate/</link><pubDate>Fri, 09 Oct 2020 03:15:26 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/closingsummary/completioncertificate/</guid><description>
+&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#204a87;font-weight:bold">a&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#000">Turtle&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
+&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#204a87;font-weight:bold">b&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#000">Banana&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
+&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#204a87;font-weight:bold">c&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#000">Dog&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
+&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#204a87;font-weight:bold">d&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#000">Apple&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
+&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#204a87;font-weight:bold">e&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#000">Cat&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
+&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#204a87;font-weight:bold">f&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#000">Peach&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
+&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h5 id="this-concludes-test-1-please-use-the-navigation-bar-to-proceed-to-the-next-page">This concludes Test 1. Please use the navigation bar to proceed to the next page.&lt;/h5></description></item><item><title>Docs: Learn By Doing</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/learnbydoing/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/learnbydoing/</guid><description>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/yDVqt9jz9Pw" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div></description></item><item><title>Docs: Course Completion and Badge</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/coursecompletion/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/coursecompletion/</guid><description>
 &lt;p>If you have completed all tests in the course and recieved over 70% correct responses, you can make an automated request to recieve a certificate of completion for this course.&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/ywLPw0QdU08" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;iframe src="https://www.youtube.com/embed/_XgvpPML0FQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
 &lt;p>To request your certificate of completion:&lt;/p>
 &lt;ol>
@@ -212,78 +226,4 @@ course content and quality and is greatly appreciated!&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;p>In the event that a user requests a certificate and does not have the minimum required grade to pass, a grade report will be provided that will include details on the percent of correct answers for each test in the course, highlighting which test(s) may need to be retaken to achieve a passing grade. Members can then retake any tests necesarry to increase their grade, and then repeat the above process again to request that the certificate service run again.&lt;/p>
-&lt;p>If you encounter any problems with testing or with the certificate process, please open an issue ticket on this course.&lt;/p></description></item><item><title>Docs: Course Complete</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/closingsummary/coursecomplete/</link><pubDate>Mon, 12 Oct 2020 20:20:53 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/closingsummary/coursecomplete/</guid><description>
-&lt;p>Thank you for completing the course!&lt;/p></description></item><item><title>Docs: Resources and References</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/closingsummary/resourcesandreferences/</link><pubDate>Mon, 12 Oct 2020 20:18:29 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/closingsummary/resourcesandreferences/</guid><description>
-&lt;p>&lt;strong>Web:&lt;/strong> &lt;a href="https://tanzu.vmware.com">https://tanzu.vmware.com&lt;/a>&lt;/p>
-&lt;p>&lt;strong>Blog:&lt;/strong> &lt;a href="https://tanzu.vmware.com/blog">https://tanzu.vmware.com/blog&lt;/a>&lt;/p>
-&lt;p>&lt;strong>Twitter:&lt;/strong> @vmwaretanzu&lt;/p>
-&lt;p>&lt;strong>Email:&lt;/strong> asktanzu@vmware.com&lt;/p></description></item><item><title>Docs: How to submit tests</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/closingsummary/testinstructions/</link><pubDate>Fri, 09 Oct 2020 03:15:26 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/closingsummary/testinstructions/</guid><description>
-&lt;p>All Modernapps Ninja learning content is publicly accessible and available openly, however a free membership is required to take tests and recieve a certificate of completion for the course. You must first &lt;a href="https://modernapps.ninja/about/membership/">join the community&lt;/a> and register for this course per the insructions in the course introduction section before attempting to submit a test.&lt;/p>
-&lt;p>Ninja tests use devops tools and processes so the testing system itself is educational and provides both experience and validation of foundational devops skills.&lt;/p>
-&lt;h2 id="instructions">Instructions&lt;/h2>
-&lt;p>Tests uses automated grading, you must follow the instructions exactly to ensure the automated grading will complete successfully.&lt;/p>
-&lt;p>To complete the test you must review the questions on this page, and fill in your answers on a seperate answer sheet. Each test will provide a link to the answer sheet for that test. We recommend opening the answer sheet for the test in a seperate browser tab so you can fill in the answers as you proceed through the questions.&lt;/p>
-&lt;p>Every test question is titled &amp;ldquo;Question&amp;rdquo; followed by its order, for example Question1, Question2, Question3 etc&amp;hellip;&lt;/p>
-&lt;p>All questions will provide a list of possible answers. Each possible answer is represented by a lowercase letter, the first response is option &amp;ldquo;a&amp;rdquo;, the second is option &amp;ldquo;b&amp;rdquo; and so on, as shown in the example questions below.&lt;/p>
-&lt;p>The Answer sheet will open in Github&amp;rsquo;s web-based editor, similar to the image shown below:&lt;/p>
-&lt;p>&lt;img src="https://modernappsninja.github.io/modernappsskills101_ms4043/vSphereTanzu301_vt4163/admin/assets/images/blank_test_screen_example.png" alt="Example Test Response Sheet">&lt;/p>
-&lt;p>After you fill in your answer sheet, you will submit your responses as a git &lt;a href="https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests">pull request&lt;/a> following the instructions provided below, which will trigger a workflow that will grade your responses and provide your test grading sheet.&lt;/p>
-&lt;h3 id="example-questions">Example Questions&lt;/h3>
-&lt;p>Tests may contain two types of questions, multiple choice single answer, and multiple choice multiple answer, as shown in the examples below.&lt;/p>
-&lt;h4 id="example-multiple-choice-single-answer-question">Example Multiple Choice Single Answer Question&lt;/h4>
-&lt;h5 id="question1-what-value-will-the-bash-shell-return-when-you-enter-the-command-echo-hello">Question1: What value will the bash shell return when you enter the command &lt;code>echo hello&lt;/code>?&lt;/h5>
-&lt;pre>&lt;code>Answers:
-a: banana
-b: hello
-c: apple
-d: shutdown commencing
-&lt;/code>&lt;/pre>&lt;p>The correct answer to Question1 is &lt;code>b&lt;/code> as the command will return the value hello.&lt;/p>
-&lt;p>On your answer sheet, you would fill in the value &lt;code>b&lt;/code> for Question1, as shown in the following example:&lt;/p>
-&lt;pre>&lt;code>Question1: b
-Question2:
-Question3:
-&lt;/code>&lt;/pre>&lt;h4 id="example-multiple-choice-multiple-answer-question">Example Multiple Choice Multiple Answer Question&lt;/h4>
-&lt;pre>&lt;code>Question2: Which of the following are fruits? (Select 3)
-Answers:
-a: banana
-b: hello
-c: apple
-d: shutdown commencing
-e: orange
-&lt;/code>&lt;/pre>&lt;p>&lt;strong>IMPORTANT&lt;/strong>: When providing answers to multiple choice multiple answer questions, it is important your responses are in alphabetical order. For example, the correct answer for Question2 above is &lt;code>a,c,e&lt;/code>, in alphabetical order, with a comma between each answer. If you provided the answer as &lt;code>a,e,c&lt;/code>, the grading service would mark your answer incorrect as the response values were not provided in alphabetical order.&lt;/p>
-&lt;p>Partially correct answers will be counted as incorrect, no partial credit is given.&lt;/p>
-&lt;p>You do not need to put spaces between each value in your response, but the grading service will ignore spaces if present.&lt;/p>
-&lt;p>On your answer sheet, you would fill in the value &lt;code>a,c,e&lt;/code> for Question2, as shown in the following example:&lt;/p>
-&lt;pre>&lt;code>Question1: b
-Question2: a,c,e
-Question3:
-&lt;/code>&lt;/pre>&lt;h3 id="submitting-your-test-response">Submitting your test response&lt;/h3>
-&lt;p>After you fill in responses to all questions, scroll to the bottom of the screen and click the propose changes button as shown below:&lt;/p>
-&lt;p>&lt;img src="https://modernappsninja.github.io/modernappsskills101_ms4043/vSphereTanzu301_vt4163/admin/assets/images/propose_changes.png" alt="propose_new_file">&lt;/p>
-&lt;p>After you click propose changes:&lt;/p>
-&lt;ul>
-&lt;li>GitHub will automatically create a copy of the course repository on a new special copy of the repository called a &lt;strong>fork&lt;/strong> in your github account.&lt;/li>
-&lt;li>Your proposed changes will be saved to a &lt;a href="https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-branches">branch&lt;/a> on your fork of the repository.&lt;/li>
-&lt;li>Your browser will be directed to a screen where you can submit the updated document from your fork to the course repository&lt;/li>
-&lt;/ul>
-&lt;p>Your browser should now show the &lt;code>Comparing Changes&lt;/code> screen, as shown in the image below:&lt;/p>
-&lt;p>&lt;img src="https://modernappsninja.github.io/modernappsskills101_ms4043/vSphereTanzu301_vt4163/admin/assets/images/comparing_changes.png" alt="comparing_changes">&lt;/p>
-&lt;p>Observe that in the top part of the Comparing Changes screen:&lt;/p>
-&lt;ul>
-&lt;li>The &lt;code>base repository&lt;/code> is the repository you are proposing changes to&lt;/li>
-&lt;li>The &lt;code>head repository&lt;/code> is your fork of the repository, where the updates you have made are saved&lt;/li>
-&lt;li>A directional arrow points from the head repository toward the base repository, indicating that you want the proposed update to be merged from the head, into the base repository&lt;/li>
-&lt;/ul>
-&lt;p>The bottom part of the Comparing Changes Screen shows the names of any files that are proposed to be updated, and displays and highlights the lines of files proposed to be changed.&lt;/p>
-&lt;p>Review the proposed file changes to ensure your responses look correct, and then click the &lt;code>Create pull request&lt;/code> button.&lt;/p>
-&lt;h3 id="reviewing-your-test-response">Reviewing your test response&lt;/h3>
-&lt;p>After you click the &lt;code>Create pull request&lt;/code> button, you will be directed to a new page where you can review the status of your pull request.&lt;/p>
-&lt;p>At the same time, an automated github actions workflow will evaluate your test responses, post a test grading report to your member repo, and post a message alerting you with the link to your report. The link to your file will be similar to the following, with the values for your username and the course repository name for the test you are taking: &lt;code>https://github.com/modernappsninjas/YOUR_GITHUB_USERNAME/static/admin/userdata/COURSE_REPO_NAME/testresults&lt;/code>.&lt;/p>
-&lt;p>If you passed the test, it will also be indicated on the course record card on your member and a message will be sent to you with the link to your record card for the course. The link to your file will be similar to the following, with the values for your username and the course repository name for the test you are taking: &lt;code>https://github.com/modernappsninjas/YOUR_GITHUB_USERNAME/content/english/course/COURSE_REPO_NAME.md&lt;/code>.&lt;/p>
-&lt;p>Your course record card will display each test in the course, and if that test has been completed, for example:&lt;/p>
-&lt;div class="highlight">&lt;pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml">&lt;span style="color:#204a87;font-weight:bold">Tests&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
-&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#204a87;font-weight:bold">Test1&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#000">Completed Successfully&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
-&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#204a87;font-weight:bold">Test2&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#000">Pending&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
-&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#204a87;font-weight:bold">Test3&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>&lt;span style="color:#000">Pending&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
-&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>If you do not pass the test, the course record card is not modified, and the result will only be reflected on the test grading report.&lt;/p>
-&lt;p>This complete the instructions for taking tests. If you have additional questions, please search the member discussion board and issue ticket records at &lt;a href="https://github.com/modernappsninja/modernappsninja.github.io">https://github.com/modernappsninja/modernappsninja.github.io&lt;/a> and if you cannot find an answer to your question, please open an issue ticket on this course repository. Thank you!&lt;/p></description></item></channel></rss>
+&lt;p>If you encounter any problems with testing or with the certificate process, please open an issue ticket on this course.&lt;/p></description></item></channel></rss>
