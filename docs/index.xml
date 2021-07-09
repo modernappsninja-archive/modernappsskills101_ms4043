@@ -201,19 +201,19 @@ vmwareEmailAddress: &lt;span style="color:#4e9a06">&amp;#34;&amp;#34;&lt;/span>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe src="https://www.youtube.com/embed/yDVqt9jz9Pw" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div></description></item><item><title>Docs: Course Completion and Badge</title><link>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/coursecompletion/</link><pubDate>Mon, 12 Oct 2020 18:34:25 -0700</pubDate><guid>https://modernappsninja.github.io/modernappsskills101_ms4043/docs/coursecompletion/</guid><description>
-&lt;p>If you have completed all tests in the course and recieved over 70% correct responses, you can make an automated request to recieve a certificate of completion for this course.&lt;/p>
+&lt;p>If you have completed all tests in the course and received over 70% correct responses, you can make an automated request to recieve a certificate of completion for this course.&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe src="https://www.youtube.com/embed/_XgvpPML0FQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
-&lt;p>To request your certificate of completion:&lt;/p>
+&lt;p>To request for your certificate of completion:&lt;/p>
 &lt;ol>
-&lt;li>In a seperate browser tab navigate to: &lt;a href="https://github.com/ModernAppsNinja/modernappsskills101_ms4043/tree/main/static/admin/userdata/certs_awarded">https://github.com/ModernAppsNinja/modernappsskills101_ms4043/tree/main/static/admin/userdata/certs_awarded&lt;/a>&lt;/li>
+&lt;li>In a new tab navigate to: &lt;a href="https://github.com/ModernAppsNinja/modernappsskills101_ms4043/tree/main/static/admin/userdata/certs_awarded">https://github.com/ModernAppsNinja/modernappsskills101_ms4043/tree/main/static/admin/userdata/certs_awarded&lt;/a>&lt;/li>
 &lt;li>Click on the &lt;code>Add file&lt;/code> button to add a new file&lt;/li>
 &lt;li>Name the file using your own github username in the format &lt;code>yourgithubusername.yml&lt;/code>&lt;/li>
 &lt;li>In the body of the file type: &lt;code>Status: Completed&lt;/code>&lt;/li>
 &lt;li>Click on &lt;code>Propose new file&lt;/code> and then &lt;code>Create pull request&lt;/code> to submit your new file.&lt;/li>
 &lt;/ol>
-&lt;p>When you submit your new file as described in the steps above (also called making a pull request) it will trigger an automated github action workflow that will:&lt;/p>
+&lt;p>When you have submitted your new file as per described in the steps above (also called making a pull request) it will trigger an automated github action workflow that will:&lt;/p>
 &lt;ul>
 &lt;li>Compare the total quantity of tests in the course with the quantity of tests you have completed to ensure you have completed all required tests for the course&lt;/li>
 &lt;li>Tabulate the total quantity of all test questions from all tests&lt;/li>
