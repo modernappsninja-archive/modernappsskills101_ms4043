@@ -65,7 +65,7 @@ Answers:
 **Please select the best response:**
 
 ```yml
-Answers:ech
+Answers:
   a: No
   b: Tomato
   c: Yes
