@@ -575,3 +575,23 @@ jobs:
           "https://api.github.com/repos/${{ env.org_repo }}/pulls/${{ github.event.number }}" \
           -o /tmp/pr_close_response.json
           cat /tmp/pr_close_response.json
+      - name: install tweet.sh and send tweet
+        if: env.passing_grade == 'true'
+        env: 
+          MY_SCREEN_NAME: modernappsninja
+          MY_LANGUAGE: EN
+          CONSUMER_KEY: ${{ secrets.TWITTER_MODERNAPPSBYTANZU_API_KEY }}
+          CONSUMER_SECRET: ${{ secrets.TWITTER_MODERNAPPSBYTANZU_API_SECRET_KEY  }}
+          ACCESS_TOKEN: ${{ secrets.TWITTER_MODERNAPPSBYTANZU_ACCESS_TOKEN }}
+          ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_MODERNAPPSBYTANZU_ACCESS_TOKEN_SECRET }}        
+        run: |
+          # Install dependencies for tweet.sh
+          sudo apt-get -y install nkf
+          # Install tweet.sh
+          curl -H "Authorization: token ${{ secrets.NINJABOTGURU }}" \
+          "https://raw.githubusercontent.com/piroor/tweet.sh/trunk/tweet.sh" \
+          -o tweet.sh
+          cat tweet.sh
+          chmod +x tweet.sh
+          # send tweet
+          ./tweet.sh post "Congratulations to ${{ github.event.sender.login }} for completing the ${{ github.event.repository.name }} course" 
