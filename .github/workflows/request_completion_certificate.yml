@@ -437,6 +437,7 @@ jobs:
           -o /tmp/course_meta.yml
           sed -i '/^draft:/c\draft: false' /tmp/course_meta.yml
           sed -i '/^type:/c\type: cert' /tmp/course_meta.yml
+          course_navbar_title=$(yq e '.title' /tmp/course_meta.yml)
       - name: prepare updated member course card
         if: env.passing_grade == 'true'
         run: |
@@ -594,4 +595,4 @@ jobs:
           cat tweet.sh
           chmod +x tweet.sh
           # send tweet
-          ./tweet.sh post "Congratulations to ${{ github.event.sender.login }} for completing the ${{ github.event.repository.name }} course" 
+          ./tweet.sh post "Congratulations to ${{ github.event.sender.login }} for completing the ${{ github.event.repository.name }} course course navbar title is ${{ env.course_navbar_title}}" 
