@@ -438,7 +438,7 @@ jobs:
           sed -i '/^draft:/c\draft: false' /tmp/course_meta.yml
           sed -i '/^type:/c\type: cert' /tmp/course_meta.yml
           course_navbar_title=$(yq e '.course_navbar_title' /tmp/course_meta.yml)
-          course_apply_url=$(yq e '.apply_url' /tmp/course_meta.yml)
+          course_apply_url=$(yq e '.apply_url' /tmp/course_meta.yml | head -1)
       - name: prepare updated member course card
         if: env.passing_grade == 'true'
         run: |
@@ -596,4 +596,4 @@ jobs:
           cat tweet.sh
           chmod +x tweet.sh
           # send tweet
-          ./tweet.sh post "$(cat /tmp/badge_openBadgeId) Congratulations to https://github.com/${{ github.event.sender.login }} for completing the ${{ env.course_apply_url }} course and earning their digital badge from ModernApps Learning by @VMwareTanzu! #vmware #vmwaretanzu"
+          ./tweet.sh post "Congratulations to https://github.com/${{ github.event.sender.login }} for completing the ${{ env.course_navbar_title }} course and earning their digital badge from ModernApps Learning by @VMwareTanzu $(cat /tmp/badge_openBadgeId)"
