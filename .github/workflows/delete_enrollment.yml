@@ -1,0 +1,214 @@
+name: delete_enrollment_workflow
+on:
+  workflow_dispatch:
+    inputs:
+      github_username:
+        description: 'Enter the github username for the enrollment to be deleted'
+        required: true
+        default: ''
+
+jobs:
+  job_verify_admin:
+    name: verify_admin
+    runs-on: ubuntu-latest
+    outputs:
+      isprivileged: ${{ steps.isprivileged.outputs.isprivileged }}
+    steps:
+      - name: review event details
+        run: |
+          env
+          cat /home/runner/work/_temp/_github_workflow/event.json
+      - name: set source repo as org_repo
+        run: |
+          echo $(echo org_repo="$GITHUB_REPOSITORY") >> $GITHUB_ENV
+      - name: curl admin team members
+        run: |
+          echo "org_repo is ${{ env.org_repo }}"
+          curl -H "Authorization: token ${{ secrets.NINJABOTGURU }}" \
+          "https://api.github.com/orgs/modernappsninja/teams/admins/memberships/${{ github.event.issue.user.login }}" \
+          -o /tmp/raw_team_record_curl.json
+          cat /tmp/raw_team_record_curl.json
+      - name: set envar raw_team_curl_state
+        run: |
+          cat /tmp/raw_team_record_curl.json | jq -r '.state' >> /tmp/raw_team_record_curl_state
+          echo raw_team_curl_state=$(cat /tmp/raw_team_record_curl_state) >> $GITHUB_ENV
+      - name: check if member record alredy exists to determine if this is a duplicate request
+        run: |
+          echo "team curl state is: ${{ env.raw_team_curl_state }}"
+          cat /tmp/raw_team_record_curl.json
+          if [ "${{ env.raw_team_curl_state }}" = "active" ]
+          then
+            echo isprivileged=true >> $GITHUB_ENV
+            echo "the requesting user has at least maintainer level membership"
+          else
+            echo isprivileged=false >> $GITHUB_ENV
+            echo "the requesting user does not have maintainer level membership"
+          fi
+      - id: isprivileged
+        if: env.isprivileged == 'true'
+        run: echo "::set-output name=isprivileged::true"
+      - name: if not privileged, post message to issue ticket
+        if: env.isprivileged == 'false'
+        run: |
+          curl -X POST \
+          -H "Authorization: token ${{ secrets.NINJABOTGURU }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          -d '{"body": "@${{ github.event.issue.user.login }} You must be a member of the maintainers team or higher privilege level to submit an answer key. Please contact a maintainer for the course for assistance, or if you are unsure who is a maintainer, open a support issue ticket and @ mention the modernappsninja/maintainers team. This ticket will now be closed."}' \
+          "https://api.github.com/repos/${{ env.org_repo }}/issues/${{ github.event.issue.number }}/comments" \
+          -o /tmp/issue_comment_post_response.json
+          cat /tmp/issue_comment_post_response.json
+      - name: if not privileged, close issue ticket
+        if: env.isprivileged == 'false'
+        run: |
+          curl -X PATCH \
+          -H "Authorization: token ${{ secrets.NINJABOTGURU }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          -d '{"state": "closed"}' \
+          "https://api.github.com/repos/${{ env.org_repo }}/issues/${{ github.event.issue.number }}" \
+          -o /tmp/close_issue_response.json
+          cat /tmp/close_issue_response.json
+  job_delete_enrollment:
+    name: delete_enrollment
+    needs: job_verify_admin
+    runs-on: ubuntu-latest
+    if: needs.job_verify_membership.outputs.isprivileged == 'true'
+    steps:
+      - name: review event details
+        run: |
+          env
+          cat /home/runner/work/_temp/_github_workflow/event.json
+      - name: set git configuration
+        run: |
+          git config --global user.name modernappsninjabot
+          git config --global user.email modernappsninjabot@gmail.com
+      - name: gather registered members file sha 
+        run: |
+          curl \
+            -H "Authorization: token ${{ secrets.NINJABOTGURU }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/modernappsninja/${{ github.event.repository.name }}/contents/static/admin/userdata/registered_members/${{ github.event.inputs.github_username }}.yml" \
+          -o /tmp/member_registered
+          cat /tmp/member_registered
+          cat /tmp/member_registered | jq '.name' > /tmp/member_registered_name
+          if [ $(cat /tmp/member_registered | jq '.name') == 'null' ]
+          then
+            echo member_registered=false >> $GITHUB_ENV
+            echo member_registered=false
+            echo "the string does not exist"
+          else
+            echo member_registered=true >> $GITHUB_ENV
+            member_registered=true
+            echo "the string does exist"
+            cat /tmp/member_registered | jq '.sha' > /tmp/member_registered_sha
+            cat /tmp/member_registered_sha
+            echo member_registered_sha=$(cat /tmp/member_registered_sha) >> $GITHUB_ENV
+          fi
+      - name: Delete registered members file
+        if: env.member_registered == 'true'
+        run: |
+          curl -X DELETE \
+          -H "Authorization: token ${{ secrets.NINJABOTGURU }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          -d '{"message": "Enrollement File removed by Delete Enrollment workflow for github user: ${{ github.event.inputs.github_username }}, executed by admin: ${{ github.event.sender.login }}","sha":"${{ env.member_registered_sha }}"}' \
+          "https://api.github.com/repos/modernappsninja/${{ github.event.repository.name }}/contents/static/admin/userdata/registered_members/${{ github.event.inputs.github_username }}.yml" \
+          -o /tmp/member_registered_file_delete_response.json
+          cat /tmp/member_registered_file_delete_response.json
+      - name: gather cert awarded file sha 
+        if: env.member_registered == 'true'
+        run: |
+          curl \
+            -H "Authorization: token ${{ secrets.NINJABOTGURU }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/modernappsninja/${{ github.event.repository.name }}/contents/static/admin/userdata/certs_awarded/${{ github.event.inputs.github_username }}.yml" \
+          -o /tmp/cert_awarded
+          cat /tmp/cert_awarded
+          cat /tmp/cert_awarded | jq '.name' > /tmp/cert_awarded_name
+          if [ $(cat /tmp/cert_awarded | jq '.name') == 'null' ]
+          then
+            echo cert_awarded=false >> $GITHUB_ENV
+            cert_awarded=false
+            echo "the string does not exist"
+          else
+            echo cert_awarded=true >> $GITHUB_ENV
+            cert_awarded=true
+            echo "the string does exist"
+            cat /tmp/cert_awarded | jq '.sha' > /tmp/cert_awarded_sha
+            cat /tmp/cert_awarded_sha
+            echo cert_awarded_sha=$(cat /tmp/cert_awarded_sha) >> $GITHUB_ENV
+          fi
+      - name: Delete certs awarded file 
+        if: env.cert_awarded == 'true'
+        run: |
+          curl -X DELETE \
+          -H "Authorization: token ${{ secrets.NINJABOTGURU }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          -d '{"message": "Cert Awarded File removed by Delete Enrollment workflow for github user: ${{ github.event.inputs.github_username }}, executed by admin: ${{ github.event.sender.login }}","sha":"${{ env.cert_awarded_sha }}"}' \
+          "https://api.github.com/repos/modernappsninja/${{ github.event.repository.name }}/contents/static/admin/userdata/certs_awarded/${{ github.event.inputs.github_username }}.yml" \
+          -o /tmp/cert_awarded_file_delete_response.json
+          cat /tmp/cert_awarded_file_delete_response.json
+      - name: gather member profile course record file sha 
+        if: env.member_registered == 'true' && env.cert_awarded == 'false'
+        run: |
+          curl \
+            -H "Authorization: token ${{ secrets.NINJABOTGURU }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/modernappsninjas/${{ github.event.inputs.github_username }}/contents/content/english/course/${{ github.event.repository.name }}.md" \
+          -o /tmp/member_course_record
+          cat /tmp/member_course_record
+          cat /tmp/member_course_record | jq '.name' > /tmp/member_course_record_name
+          if [ $(cat /tmp/member_course_record | jq '.name') == 'null' ]
+          then
+            echo member_course_record=false >> $GITHUB_ENV
+            echo "member_course_record=false"
+            echo "the member_course_record does not exist"
+          else
+            echo member_course_record=true >> $GITHUB_ENV
+            echo "member_course_record=true"
+            echo "the member_course_record does exist"
+            cat /tmp/member_course_record | jq '.sha' > /tmp/member_course_record_sha
+            cat /tmp/member_course_record_sha
+            echo member_course_record_sha=$(cat /tmp/member_course_record_sha) >> $GITHUB_ENV
+          fi
+      - name: delete member course record card from courses
+        if: env.member_course_record == 'true'
+        run: |
+          curl -X DELETE \
+          -H "Authorization: token ${{ secrets.NINJABOTGURU }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          -d '{"message": "deleting member record card from registered members dir to prepare to repost in certs dir to reflect completed status","sha":"${{ env.member_course_record_sha }}"}' \
+          "https://api.github.com/repos/modernappsninjas/${{ github.event.inputs.github_username }}/contents/content/english/course/${{ github.event.repository.name }}.md" \
+          -o /tmp/member_course_record_delete_response.json
+          cat /tmp/member_course_record_delete_response.json
+      - name: gather member profile cert record file sha 
+        if: env.cert_awarded == 'true'
+        run: |
+          curl \
+            -H "Authorization: token ${{ secrets.NINJABOTGURU }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/modernappsninjas/${{ github.event.inputs.github_username }}/contents/content/english/certs/${{ github.event.repository.name }}.md" \
+          -o /tmp/member_certs_record
+          cat /tmp/member_certs_record
+          cat /tmp/member_certs_record | jq '.name' > /tmp/member_certs_record_name
+          if [ $(cat /tmp/member_certs_record | jq '.name') == 'null' ]
+          then
+            echo member_certs_record=false >> $GITHUB_ENV
+            echo "member_certs_record=false"
+            echo "the member_certs_record does not exist"
+          else
+            echo member_certs_record=true >> $GITHUB_ENV
+            echo "member_certs_record=true"
+            echo "the member_certs_record does exist"
+            cat /tmp/member_certs_record | jq '.sha' > /tmp/member_certs_record_sha
+            cat /tmp/member_certs_record_sha
+            echo member_certs_record_sha=$(cat /tmp/member_certs_record_sha) >> $GITHUB_ENV
+          fi
+      - name: delete member cert record card from courses
+        if: env.member_certs_record == 'true'
+        run: |
+          curl -X DELETE \
+          -H "Authorization: token ${{ secrets.NINJABOTGURU }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          -d '{"message": "deleting member record card from registered members dir to prepare to repost in certs dir to reflect completed status","sha":"${{ env.member_certs_record_sha }}"}' \
+          "https://api.github.com/repos/modernappsninjas/${{ github.event.inputs.github_username }}/contents/content/english/certs/${{ github.event.repository.name }}.md" \
+          -o /tmp/member_certs_record_delete_response.json
+          cat /tmp/member_certs_record_delete_response.json
