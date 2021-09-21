@@ -71,7 +71,7 @@ jobs:
     name: delete_enrollment
     needs: job_verify_admin
     runs-on: ubuntu-latest
-    if: needs.job_verify_membership.outputs.isprivileged == 'true'
+    if: needs.job_verify_admin.outputs.isprivileged == 'true'
     steps:
       - name: review event details
         run: |
