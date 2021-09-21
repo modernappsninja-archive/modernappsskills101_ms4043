@@ -25,7 +25,7 @@ jobs:
         run: |
           echo "org_repo is ${{ env.org_repo }}"
           curl -H "Authorization: token ${{ secrets.NINJABOTGURU }}" \
-          "https://api.github.com/orgs/modernappsninja/teams/admins/memberships/${{ github.event.issue.user.login }}" \
+          "https://api.github.com/orgs/modernappsninja/teams/admins/memberships/${{ github.event.sender.login }}" \
           -o /tmp/raw_team_record_curl.json
           cat /tmp/raw_team_record_curl.json
       - name: set envar raw_team_curl_state
@@ -53,7 +53,7 @@ jobs:
           curl -X POST \
           -H "Authorization: token ${{ secrets.NINJABOTGURU }}" \
           -H "Accept: application/vnd.github.v3+json" \
-          -d '{"body": "@${{ github.event.issue.user.login }} You must be a member of the maintainers team or higher privilege level to submit an answer key. Please contact a maintainer for the course for assistance, or if you are unsure who is a maintainer, open a support issue ticket and @ mention the modernappsninja/maintainers team. This ticket will now be closed."}' \
+          -d '{"body": "@${{ github.event.sender.login }} You must be a member of the maintainers team or higher privilege level to submit an answer key. Please contact a maintainer for the course for assistance, or if you are unsure who is a maintainer, open a support issue ticket and @ mention the modernappsninja/maintainers team. This ticket will now be closed."}' \
           "https://api.github.com/repos/${{ env.org_repo }}/issues/${{ github.event.issue.number }}/comments" \
           -o /tmp/issue_comment_post_response.json
           cat /tmp/issue_comment_post_response.json
