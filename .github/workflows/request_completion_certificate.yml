@@ -437,8 +437,14 @@ jobs:
           -o /tmp/course_meta.yml
           sed -i '/^draft:/c\draft: false' /tmp/course_meta.yml
           sed -i '/^type:/c\type: cert' /tmp/course_meta.yml
+      - name: set envars from course meta
+        if: env.passing_grade == 'true'
+        run: |
+          cat /tmp/course_meta.yml
           course_navbar_title=$(yq e '.course_navbar_title' /tmp/course_meta.yml)
+          echo "The course navbar title is: ${course_navbar_title}"
           course_apply_url=$(yq e '.apply_url' /tmp/course_meta.yml | head -1)
+          echo "The course apply url is: ${course_apply_url}"
       - name: prepare updated member course card
         if: env.passing_grade == 'true'
         run: |
@@ -596,4 +602,4 @@ jobs:
           cat tweet.sh
           chmod +x tweet.sh
           # send tweet
-          ./tweet.sh post "Congratulations to https://github.com/${{ github.event.sender.login }} for completing the ${{ env.course_navbar_title }} course and earning their digital badge from ModernApps Learning by @VMwareTanzu $(cat /tmp/badge_openBadgeId)"
+          ./tweet.sh post "Congratulations to https://github.com/${{ github.event.sender.login }} for completing the ${{ env.course_navbar_title }} course and earning their digital badge from #ModernAppsLearning by @VMwareTanzu https://modernapps.ninja $(cat /tmp/badge_openBadgeId)"
