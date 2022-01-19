@@ -12,6 +12,10 @@ draft: false
   - [Step 3 - Add a line to your file](#step-3---add-a-line-to-your-file)
   - [Step 4 - Submit your enrollment document](#step-4---submit-your-enrollment-document)
 
+## Important Notice: 
+
+**The Enrollment, testing and digital badge features will be removed on Friday February 18th, 2022. Please ensure you have completed any test and digital badge requests prior to this date. The course materials will still be available.**
+
 ### Video Overview
 
 {{< youtube ZwomDsloyHg >}}
